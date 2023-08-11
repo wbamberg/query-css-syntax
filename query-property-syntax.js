@@ -15,10 +15,10 @@ const specsForProp = {};
  * exclude any specs which have the `-number` suffix.
  */
 function filterDuplicateSpecVersions(specNames) {
-	if (specNames.length > 0) {
-		return specNames.filter((specName) => !/-\d+$/.test(specName));
-	}
-	return specNames;
+  if (specNames.length > 0) {
+    return specNames.filter((specName) => !/-\d+$/.test(specName));
+  }
+  return specNames;
 }
 
 /**
@@ -26,21 +26,21 @@ function filterDuplicateSpecVersions(specNames) {
  * Get all specs that list the named property
  */
 function getAllPropertySpecs(propertyName) {
-	const specs = specsForProp[propertyName];
-	if (specs) {
-		return specs;
-	}
-	// build a cache
-	for (const [specName, data] of Object.entries(parsedWebRef)) {
-		for (const prop of data.properties) {
-			if (!specsForProp[prop.name]) {
-				specsForProp[prop.name] = [specName];
-			} else {
-				specsForProp[prop.name].push(specName);
-			}
-		}
-	}
-	return specsForProp[propertyName];
+  const specs = specsForProp[propertyName];
+  if (specs) {
+    return specs;
+  }
+  // build a cache
+  for (const [specName, data] of Object.entries(parsedWebRef)) {
+    for (const prop of data.properties) {
+      if (!specsForProp[prop.name]) {
+        specsForProp[prop.name] = [specName];
+      } else {
+        specsForProp[prop.name].push(specName);
+      }
+    }
+  }
+  return specsForProp[propertyName];
 }
 
 /**
@@ -51,54 +51,53 @@ function getAllPropertySpecs(propertyName) {
  * Concatenate `newValues` onto `values` using `|`.
  */
 function buildPropertySyntax(propertyName, specsForProp) {
-	let syntax = "";
-	let newSyntaxes = "";
-	for (const specName of specsForProp) {
-		const propertyData = parsedWebRef[specName].properties.filter(
-			(p) => p.name === propertyName
-		)[0];
-		const baseValue = propertyData.value;
-		if (baseValue) {
-			syntax = baseValue;
-		}
-		const newValues = propertyData.newValues;
-		if (newValues) {
-			newSyntaxes += ` | ${newValues}`;
-		}
-	}
-	// Concatenate newValues onto values to return a single syntax string
-	if (newSyntaxes) {
-		syntax += newSyntaxes;
-	}
-	return syntax;
+  let syntax = "";
+  let newSyntaxes = "";
+  for (const specName of specsForProp) {
+    const propertyData = parsedWebRef[specName].properties.filter(
+      (p) => p.name === propertyName
+    )[0];
+    const baseValue = propertyData.value;
+    if (baseValue) {
+      syntax = baseValue;
+    }
+    const newValues = propertyData.newValues;
+    if (newValues) {
+      newSyntaxes += ` | ${newValues}`;
+    }
+  }
+  // Concatenate newValues onto values to return a single syntax string
+  if (newSyntaxes) {
+    syntax += newSyntaxes;
+  }
+  return syntax;
 }
 
-export function getPropertySyntax(propertyName, typesToLink) {
-	const allSpecs = getAllPropertySpecs(propertyName);
-	const filteredSpecs = filterDuplicateSpecVersions(allSpecs);
-	const propertySyntax = buildPropertySyntax(propertyName, filteredSpecs);
-	let namespacedValues = [];
-	for (const specName of filteredSpecs) {
-		const namespacedValuesForSpec = parsedWebRef[specName].properties.find(
-			(p) => p.name === propertyName
-		).values;
-		namespacedValues = namespacedValues.concat(namespacedValuesForSpec);
-	}
+export function getPropertySyntax(propertyName, typesToOmit) {
+  const allSpecs = getAllPropertySpecs(propertyName);
+  if (!allSpecs) {
+    throw new Error(`Could not find ${propertyName} in specifications`);
+  }
+  const filteredSpecs = filterDuplicateSpecVersions(allSpecs);
+  const syntax = buildPropertySyntax(propertyName, filteredSpecs);
+  let namespacedValues = [];
+  for (const specName of filteredSpecs) {
+    const namespacedValuesForSpec = parsedWebRef[specName].properties.find(
+      (p) => p.name === propertyName
+    ).values;
+    if (namespacedValuesForSpec) {
+      namespacedValues = namespacedValues.concat(namespacedValuesForSpec);
+    }
+  }
 
-	const constituents = getConstituentSyntaxes(
-		propertySyntax,
-		namespacedValues,
-		typesToLink
-	);
+  const constituents = getConstituentSyntaxes(
+    syntax,
+    namespacedValues,
+    typesToOmit
+  );
 
-	return {
-		propertySyntax,
-		constituents,
-	};
+  return {
+    syntax,
+    constituents,
+  };
 }
-
-const typesToLink = ["<color>", "<gradient>"];
-
-const syntax = getPropertySyntax(process.argv[2], typesToLink);
-
-console.log(syntax);
