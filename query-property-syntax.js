@@ -15,7 +15,7 @@ const specsForProp = {};
  * exclude any specs which have the `-number` suffix.
  */
 function filterDuplicateSpecVersions(specNames) {
-  if (specNames.length > 0) {
+  if (specNames.length > 1) {
     return specNames.filter((specName) => !/-\d+$/.test(specName));
   }
   return specNames;
@@ -26,17 +26,19 @@ function filterDuplicateSpecVersions(specNames) {
  * Get all specs that list the named property
  */
 function getAllPropertySpecs(propertyName) {
-  const specs = specsForProp[propertyName];
-  if (specs) {
-    return specs;
-  }
-  // build a cache
-  for (const [specName, data] of Object.entries(parsedWebRef)) {
-    for (const prop of data.properties) {
-      if (!specsForProp[prop.name]) {
-        specsForProp[prop.name] = [specName];
-      } else {
-        specsForProp[prop.name].push(specName);
+  // if the specsForProp object is empty, build it
+  if (Object.keys(specsForProp).length === 0) {
+    const specs = specsForProp[propertyName];
+    if (specs) {
+      return specs;
+    }
+    for (const [specName, data] of Object.entries(parsedWebRef)) {
+      for (const prop of data.properties) {
+        if (!specsForProp[prop.name]) {
+          specsForProp[prop.name] = [specName];
+        } else {
+          specsForProp[prop.name].push(specName);
+        }
       }
     }
   }
@@ -79,6 +81,7 @@ export function getPropertySyntax(propertyName, typesToOmit) {
     throw new Error(`Could not find ${propertyName} in specifications`);
   }
   const filteredSpecs = filterDuplicateSpecVersions(allSpecs);
+
   const syntax = buildPropertySyntax(propertyName, filteredSpecs);
   let namespacedValues = [];
   for (const specName of filteredSpecs) {

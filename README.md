@@ -9,18 +9,24 @@ The syntax of each CSS property (and other CSS items) is precisely defined using
 ```js
 import { getPropertySyntax } from "query-css-syntax";
 
-const typesToSkip = ["<color>"];
-const syntax = getPropertySyntax("border-top", typesToSkip);
+const typesToOmit = ["<color>"];
+const syntax = getPropertySyntax("border-top", typesToOmit);
 
 console.log(syntax);
 
 /*
 {
   syntax: '<line-width> || <line-style> || <color>',
-  constituents: {
-    'line-width': '<length [0,∞]> | thin | medium | thick',
-    'line-style': 'none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset'
-  }
+  constituents: [
+    {
+      type: 'line-width',
+      syntax: '<length [0,∞]> | thin | medium | thick'
+    },
+    {
+      type: 'line-style',
+      syntax: 'none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset'
+    }
+  ]
 }
 */
 ```
@@ -35,7 +41,12 @@ This package exports one function, `getPropertySyntax()`. This function takes tw
 The function returns an object with two properties:
 
 - `syntax`: a string containing the syntax for the property
-- `constituents`: an object with one member for each subtype that participates in the property's syntax definition. The key is the name of the subtype, and the value is the syntax for the subtype.
+- `constituents`: an array with one item for each subtype that participates in the property's syntax definition. Each item is an object with the following properties:
+
+  - `type`: a string representing the name of the type
+  - `syntax`: a string containing the syntax for the type.
+
+  Items in `constituents` are listed in the order they were encountered when parsing the syntax: this enables clients to present subtypes in a way that might make sense for readers.
 
 ## Dependencies
 

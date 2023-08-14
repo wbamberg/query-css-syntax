@@ -94,7 +94,7 @@ export function getConstituentSyntaxes(
     }
   }
 
-  const syntaxes = {};
+  const syntaxes = [];
 
   for (const constituent of allConstituents) {
     const valueName = constituent.endsWith("()")
@@ -102,7 +102,10 @@ export function getConstituentSyntaxes(
       : `<${constituent}>`;
     const valueEntry = values.find((v) => v.name === valueName);
     if (valueEntry && valueEntry.value) {
-      syntaxes[constituent] = valueEntry.value;
+      syntaxes.push({
+        type: constituent,
+        syntax: valueEntry.value,
+      });
     }
   }
 
