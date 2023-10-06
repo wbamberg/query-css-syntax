@@ -1,0 +1,71 @@
+{
+  "name": "filter",
+  "type": "property",
+  "syntax": "none | <filter-value-list>",
+  "constituents": [
+    {
+      "type": "filter-value-list",
+      "syntax": "[ <filter-function> | <url> ]+"
+    },
+    {
+      "type": "filter-function",
+      "syntax": "<blur()> | <brightness()> | <contrast()> | <drop-shadow()> | <grayscale()> | <hue-rotate()> | <invert()> | <opacity()> | <sepia()> | <saturate()>"
+    },
+    {
+      "type": "url",
+      "syntax": "<url()> | <src()>"
+    },
+    {
+      "type": "blur()",
+      "syntax": "blur( <length>? )"
+    },
+    {
+      "type": "brightness()",
+      "syntax": "brightness( [ <number> | <percentage> ]? )"
+    },
+    {
+      "type": "contrast()",
+      "syntax": "contrast( [ <number> | <percentage> ]? )"
+    },
+    {
+      "type": "drop-shadow()",
+      "syntax": "drop-shadow( [ <color>? && <length>{2,3} ] )"
+    },
+    {
+      "type": "grayscale()",
+      "syntax": "grayscale( [ <number> | <percentage> ]? )"
+    },
+    {
+      "type": "hue-rotate()",
+      "syntax": "hue-rotate( [ <angle> | <zero> ]? )"
+    },
+    {
+      "type": "invert()",
+      "syntax": "invert( [ <number> | <percentage> ]? )"
+    },
+    {
+      "type": "opacity()",
+      "syntax": "opacity( [ <number> | <percentage> ]? )"
+    },
+    {
+      "type": "sepia()",
+      "syntax": "sepia( [ <number> | <percentage> ]? )"
+    },
+    {
+      "type": "saturate()",
+      "syntax": "saturate( [ <number> | <percentage> ]? )"
+    },
+    {
+      "type": "url()",
+      "syntax": "url( <string> <url-modifier>* ) | <url-token>"
+    },
+    {
+      "type": "src()",
+      "syntax": "src( <string> <url-modifier>* )"
+    },
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    }
+  ]
+}

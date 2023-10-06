@@ -1,0 +1,6 @@
+{
+  "name": "touch-action",
+  "type": "property",
+  "syntax": "auto | none | [ [ pan-x | pan-left | pan-right ] || [ pan-y | pan-up | pan-down ] || pinch-zoom ] | manipulation",
+  "constituents": []
+}

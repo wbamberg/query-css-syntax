@@ -1,0 +1,19 @@
+{
+  "name": "image",
+  "type": "type",
+  "syntax": "<url> | <gradient>",
+  "constituents": [
+    {
+      "type": "url",
+      "syntax": "<url()> | <src()>"
+    },
+    {
+      "type": "url()",
+      "syntax": "url( <string> <url-modifier>* ) | <url-token>"
+    },
+    {
+      "type": "src()",
+      "syntax": "src( <string> <url-modifier>* )"
+    }
+  ]
+}

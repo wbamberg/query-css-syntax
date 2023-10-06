@@ -1,0 +1,11 @@
+{
+  "name": "font-family",
+  "type": "property",
+  "syntax": "[ <family-name> | <generic-family> ]#",
+  "constituents": [
+    {
+      "type": "generic-family",
+      "syntax": "<serif> | <sans-serif> | <cursive> | <fantasy> | <monospace> | <system-ui> | <emoji> | <math> | <fangsong> | <ui-serif> | <ui-sans-serif> | <ui-monospace> | <ui-rounded>"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "content-visibility",
+  "type": "property",
+  "syntax": "visible | auto | hidden",
+  "constituents": []
+}

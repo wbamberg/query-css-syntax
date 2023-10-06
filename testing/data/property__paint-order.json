@@ -1,0 +1,6 @@
+{
+  "name": "paint-order",
+  "type": "property",
+  "syntax": "normal | [ fill || stroke || markers ]",
+  "constituents": []
+}

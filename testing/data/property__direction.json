@@ -1,0 +1,6 @@
+{
+  "name": "direction",
+  "type": "property",
+  "syntax": "ltr | rtl",
+  "constituents": []
+}

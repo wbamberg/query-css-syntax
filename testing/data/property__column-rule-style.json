@@ -1,0 +1,11 @@
+{
+  "name": "column-rule-style",
+  "type": "property",
+  "syntax": "<line-style>",
+  "constituents": [
+    {
+      "type": "line-style",
+      "syntax": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
+    }
+  ]
+}

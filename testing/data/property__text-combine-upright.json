@@ -1,0 +1,6 @@
+{
+  "name": "text-combine-upright",
+  "type": "property",
+  "syntax": "none | all | [ digits <integer [2,4]>? ]",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "font-variant-caps",
+  "type": "property",
+  "syntax": "normal | small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps",
+  "constituents": []
+}

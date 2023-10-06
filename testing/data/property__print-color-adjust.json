@@ -1,0 +1,6 @@
+{
+  "name": "print-color-adjust",
+  "type": "property",
+  "syntax": "economy | exact",
+  "constituents": []
+}

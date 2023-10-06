@@ -1,0 +1,6 @@
+{
+  "name": "overscroll-behavior-block",
+  "type": "property",
+  "syntax": "contain | none | auto",
+  "constituents": []
+}

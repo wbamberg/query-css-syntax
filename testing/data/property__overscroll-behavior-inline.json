@@ -1,0 +1,6 @@
+{
+  "name": "overscroll-behavior-inline",
+  "type": "property",
+  "syntax": "contain | none | auto",
+  "constituents": []
+}

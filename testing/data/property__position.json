@@ -1,0 +1,6 @@
+{
+  "name": "position",
+  "type": "property",
+  "syntax": "static | relative | absolute | sticky | fixed | running()",
+  "constituents": []
+}

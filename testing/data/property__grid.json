@@ -1,0 +1,6 @@
+{
+  "name": "grid",
+  "type": "property",
+  "syntax": "<'grid-template'> | <'grid-template-rows'> / [ auto-flow && dense? ] <'grid-auto-columns'>? | [ auto-flow && dense? ] <'grid-auto-rows'>? / <'grid-template-columns'>",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "border-collapse",
+  "type": "property",
+  "syntax": "separate | collapse",
+  "constituents": []
+}

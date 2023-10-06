@@ -1,0 +1,11 @@
+{
+  "name": "offset-rotate",
+  "type": "property",
+  "syntax": "[ auto | reverse ] || <angle>",
+  "constituents": [
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    }
+  ]
+}

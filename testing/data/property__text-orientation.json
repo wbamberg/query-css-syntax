@@ -1,0 +1,6 @@
+{
+  "name": "text-orientation",
+  "type": "property",
+  "syntax": "mixed | upright | sideways",
+  "constituents": []
+}

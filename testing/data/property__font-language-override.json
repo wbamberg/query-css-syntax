@@ -1,0 +1,6 @@
+{
+  "name": "font-language-override",
+  "type": "property",
+  "syntax": "normal | <string>",
+  "constituents": []
+}

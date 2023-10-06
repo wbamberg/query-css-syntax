@@ -1,0 +1,15 @@
+{
+  "name": "text-wrap",
+  "type": "property",
+  "syntax": "<text-wrap-mode> || <text-wrap-style>",
+  "constituents": [
+    {
+      "type": "text-wrap-mode",
+      "syntax": "wrap | nowrap"
+    },
+    {
+      "type": "text-wrap-style",
+      "syntax": "auto| balance | stable | pretty"
+    }
+  ]
+}

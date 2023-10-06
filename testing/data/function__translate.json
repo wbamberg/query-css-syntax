@@ -1,0 +1,11 @@
+{
+  "name": "translate",
+  "type": "function",
+  "syntax": "translate( <length-percentage> , <length-percentage>? )",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

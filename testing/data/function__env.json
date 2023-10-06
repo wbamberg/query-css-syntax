@@ -1,0 +1,6 @@
+{
+  "name": "env",
+  "type": "function",
+  "syntax": "env( <custom-ident> <integer [0,∞]>*, <declaration-value>? )",
+  "constituents": []
+}

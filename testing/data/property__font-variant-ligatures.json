@@ -1,0 +1,23 @@
+{
+  "name": "font-variant-ligatures",
+  "type": "property",
+  "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> ]",
+  "constituents": [
+    {
+      "type": "common-lig-values",
+      "syntax": "[ common-ligatures | no-common-ligatures ]"
+    },
+    {
+      "type": "discretionary-lig-values",
+      "syntax": "[ discretionary-ligatures | no-discretionary-ligatures ]"
+    },
+    {
+      "type": "historical-lig-values",
+      "syntax": "[ historical-ligatures | no-historical-ligatures ]"
+    },
+    {
+      "type": "contextual-alt-values",
+      "syntax": "[ contextual | no-contextual ]"
+    }
+  ]
+}

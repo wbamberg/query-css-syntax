@@ -1,0 +1,11 @@
+{
+  "name": "background-blend-mode",
+  "type": "property",
+  "syntax": "<mix-blend-mode>#",
+  "constituents": [
+    {
+      "type": "mix-blend-mode",
+      "syntax": "<blend-mode> | plus-darker | plus-lighter"
+    }
+  ]
+}

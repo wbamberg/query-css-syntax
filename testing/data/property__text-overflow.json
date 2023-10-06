@@ -1,0 +1,6 @@
+{
+  "name": "text-overflow",
+  "type": "property",
+  "syntax": "clip | ellipsis",
+  "constituents": []
+}

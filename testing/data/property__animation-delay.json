@@ -1,0 +1,11 @@
+{
+  "name": "animation-delay",
+  "type": "property",
+  "syntax": "<time>#",
+  "constituents": [
+    {
+      "type": "time",
+      "syntax": "<s> | <ms>"
+    }
+  ]
+}

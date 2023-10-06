@@ -1,0 +1,6 @@
+{
+  "name": "tab-size",
+  "type": "property",
+  "syntax": "<number> | <length>",
+  "constituents": []
+}

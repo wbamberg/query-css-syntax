@@ -1,0 +1,6 @@
+{
+  "name": "font-kerning",
+  "type": "property",
+  "syntax": "auto | normal | none",
+  "constituents": []
+}

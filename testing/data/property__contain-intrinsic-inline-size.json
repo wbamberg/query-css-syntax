@@ -1,0 +1,6 @@
+{
+  "name": "contain-intrinsic-inline-size",
+  "type": "property",
+  "syntax": "auto? [ none | <length> ]",
+  "constituents": []
+}

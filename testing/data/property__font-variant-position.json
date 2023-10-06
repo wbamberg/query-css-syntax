@@ -1,0 +1,6 @@
+{
+  "name": "font-variant-position",
+  "type": "property",
+  "syntax": "normal | sub | super",
+  "constituents": []
+}

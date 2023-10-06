@@ -1,0 +1,11 @@
+{
+  "name": "@layer",
+  "type": "at-rule",
+  "syntax": "@layer <layer-name>? { <rule-list> } | @layer <layer-name>#;",
+  "constituents": [
+    {
+      "type": "layer-name",
+      "syntax": "<ident> [ '.' <ident> ]*"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "animation-range",
+  "type": "property",
+  "syntax": "[ <'animation-range-start'> <'animation-range-end'>? ]#",
+  "constituents": []
+}

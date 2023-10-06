@@ -1,0 +1,6 @@
+{
+  "name": "flex",
+  "type": "property",
+  "syntax": "none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]",
+  "constituents": []
+}

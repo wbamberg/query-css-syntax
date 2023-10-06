@@ -1,0 +1,27 @@
+{
+  "name": "outline-color",
+  "type": "property",
+  "syntax": "auto | [ <color> | <image-1D> ] | invert",
+  "constituents": [
+    {
+      "type": "image-1D",
+      "syntax": "<stripes()>"
+    },
+    {
+      "type": "stripes()",
+      "syntax": "stripes( <color-stripe># )"
+    },
+    {
+      "type": "color-stripe",
+      "syntax": "<color> && [ <length-percentage> | <flex> ]?"
+    },
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    },
+    {
+      "type": "flex",
+      "syntax": "<fr>"
+    }
+  ]
+}

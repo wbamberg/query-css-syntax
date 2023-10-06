@@ -1,0 +1,35 @@
+{
+  "name": "linear-gradient",
+  "type": "function",
+  "syntax": "linear-gradient( [ <linear-gradient-syntax> ] )",
+  "constituents": [
+    {
+      "type": "linear-gradient-syntax",
+      "syntax": "[ <angle> | to <side-or-corner> ]? , <color-stop-list>"
+    },
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    },
+    {
+      "type": "side-or-corner",
+      "syntax": "[left | right] || [top | bottom]"
+    },
+    {
+      "type": "color-stop-list",
+      "syntax": "<linear-color-stop> , [ <linear-color-hint>? , <linear-color-stop> ]#"
+    },
+    {
+      "type": "linear-color-stop",
+      "syntax": "<color> <length-percentage>?"
+    },
+    {
+      "type": "linear-color-hint",
+      "syntax": "<length-percentage>"
+    },
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

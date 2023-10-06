@@ -1,0 +1,6 @@
+{
+  "name": "vertical-align",
+  "type": "property",
+  "syntax": "[ first | last] || <'alignment-baseline'> || <'baseline-shift'>",
+  "constituents": []
+}

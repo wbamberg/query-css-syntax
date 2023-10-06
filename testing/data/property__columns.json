@@ -1,0 +1,6 @@
+{
+  "name": "columns",
+  "type": "property",
+  "syntax": "<'column-width'> || <'column-count'>",
+  "constituents": []
+}

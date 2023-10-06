@@ -1,0 +1,15 @@
+{
+  "name": "font",
+  "type": "property",
+  "syntax": "[ [ <'font-style'> || <font-variant-css2> || <'font-weight'> || <font-stretch-css3> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'> ] | caption | icon | menu | message-box | small-caption | status-bar",
+  "constituents": [
+    {
+      "type": "font-variant-css2",
+      "syntax": "[normal | small-caps]"
+    },
+    {
+      "type": "font-stretch-css3",
+      "syntax": "[normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded]"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@supports",
+  "type": "at-rule",
+  "syntax": "@supports <supports-condition> { <rule-list> }",
+  "constituents": [
+    {
+      "type": "supports-condition",
+      "syntax": "not <supports-in-parens> | <supports-in-parens> [ and <supports-in-parens> ]* | <supports-in-parens> [ or <supports-in-parens> ]*"
+    },
+    {
+      "type": "supports-in-parens",
+      "syntax": "( <supports-condition> ) | <supports-feature> | <general-enclosed>"
+    },
+    {
+      "type": "supports-feature",
+      "syntax": "<supports-decl>"
+    },
+    {
+      "type": "general-enclosed",
+      "syntax": "[ <function-token> <any-value>? ) ] | [ ( <any-value>? ) ]"
+    },
+    {
+      "type": "supports-decl",
+      "syntax": "( <declaration> )"
+    }
+  ]
+}

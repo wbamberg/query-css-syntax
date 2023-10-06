@@ -1,0 +1,6 @@
+{
+  "name": "@media/width",
+  "type": "at-rule-descriptor",
+  "syntax": "<length>",
+  "constituents": []
+}

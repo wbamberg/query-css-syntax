@@ -1,0 +1,11 @@
+{
+  "name": "font-feature-settings",
+  "type": "property",
+  "syntax": "normal | <feature-tag-value>#",
+  "constituents": [
+    {
+      "type": "feature-tag-value",
+      "syntax": "<string> [ <integer> | on | off ]?"
+    }
+  ]
+}

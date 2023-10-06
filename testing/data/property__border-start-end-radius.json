@@ -1,0 +1,6 @@
+{
+  "name": "border-start-end-radius",
+  "type": "property",
+  "syntax": "<'border-top-left-radius'>",
+  "constituents": []
+}

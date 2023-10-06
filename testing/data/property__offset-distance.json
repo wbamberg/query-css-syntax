@@ -1,0 +1,11 @@
+{
+  "name": "offset-distance",
+  "type": "property",
+  "syntax": "<length-percentage>",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

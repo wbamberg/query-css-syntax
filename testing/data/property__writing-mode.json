@@ -1,0 +1,6 @@
+{
+  "name": "writing-mode",
+  "type": "property",
+  "syntax": "horizontal-tb | vertical-rl | vertical-lr | sideways-rl | sideways-lr",
+  "constituents": []
+}

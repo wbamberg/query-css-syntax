@@ -1,0 +1,11 @@
+{
+  "name": "counter-reset",
+  "type": "property",
+  "syntax": "[ <counter-name> <integer>? | <reversed-counter-name> <integer>? ]+ | none",
+  "constituents": [
+    {
+      "type": "reversed-counter-name",
+      "syntax": "reversed( <counter-name> )"
+    }
+  ]
+}

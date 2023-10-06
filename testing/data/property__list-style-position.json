@@ -1,0 +1,6 @@
+{
+  "name": "list-style-position",
+  "type": "property",
+  "syntax": "inside | outside",
+  "constituents": []
+}

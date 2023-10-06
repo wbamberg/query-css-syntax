@@ -1,0 +1,6 @@
+{
+  "name": "mask-type",
+  "type": "property",
+  "syntax": "luminance | alpha",
+  "constituents": []
+}

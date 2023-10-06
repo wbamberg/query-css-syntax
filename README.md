@@ -7,10 +7,10 @@ The syntax of each CSS property (and other CSS items) is precisely defined using
 ## Usage
 
 ```js
-import { getPropertySyntax } from "query-css-syntax";
+import { getSyntax } from "query-css-syntax";
 
 const typesToOmit = ["<color>"];
-const syntax = getPropertySyntax("border-top", typesToOmit);
+const syntax = getSyntax("border-top", "property", typesToOmit);
 
 console.log(syntax);
 
@@ -35,7 +35,8 @@ console.log(syntax);
 
 This package exports one function, `getPropertySyntax()`. This function takes two arguments:
 
-- `propertyName`: the name of a CSS property
+- `name`: the name of a CSS feature. For example, `color`, `var()`, `<paint>`, `@import`, `@font-face/font-family`.
+- `type`: Type of the CSS feature. For example, `property`, `function`, `type`, `at-rule`, and `at-rule-descriptor`.
 - `typesToOmit`: an array listing types for which you don't want the function to find subtypes. For example, the complete definition of `<color>` is very long, so it's usually better to link to a separate definition of it than to include the definition here.
 
 The function returns an object with two properties:

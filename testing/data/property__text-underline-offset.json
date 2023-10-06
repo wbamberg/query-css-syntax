@@ -1,0 +1,6 @@
+{
+  "name": "text-underline-offset",
+  "type": "property",
+  "syntax": "auto | <length> | <percentage>",
+  "constituents": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "time-percentage",
+  "type": "type",
+  "syntax": "[ <time> | <percentage> ]",
+  "constituents": [
+    {
+      "type": "time",
+      "syntax": "<s> | <ms>"
+    }
+  ]
+}

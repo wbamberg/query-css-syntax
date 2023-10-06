@@ -1,0 +1,6 @@
+{
+  "name": "opacity",
+  "type": "function",
+  "syntax": "opacity( [ <number> | <percentage> ]? )",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "alpha-value",
+  "type": "type",
+  "syntax": "<number> | <percentage>",
+  "constituents": []
+}

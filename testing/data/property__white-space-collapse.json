@@ -1,0 +1,6 @@
+{
+  "name": "white-space-collapse",
+  "type": "property",
+  "syntax": "collapse | discard | preserve | preserve-breaks | preserve-spaces | break-spaces",
+  "constituents": []
+}

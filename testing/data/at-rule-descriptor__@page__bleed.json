@@ -1,0 +1,6 @@
+{
+  "name": "@page/bleed",
+  "type": "at-rule-descriptor",
+  "syntax": "auto | <length>",
+  "constituents": []
+}

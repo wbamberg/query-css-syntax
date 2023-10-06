@@ -1,0 +1,6 @@
+{
+  "name": "visibility",
+  "type": "property",
+  "syntax": "visible | hidden | collapse",
+  "constituents": []
+}

@@ -1,0 +1,39 @@
+{
+  "name": "list-style-type",
+  "type": "property",
+  "syntax": "<counter-style> | <string> | none",
+  "constituents": [
+    {
+      "type": "counter-style",
+      "syntax": "<counter-style-name> | <symbols()>"
+    },
+    {
+      "type": "counter-style-name",
+      "syntax": "<decimal> | <decimal-leading-zero> | <arabic-indic> | <armenian> | <upper-armenian> | <lower-armenian> | <bengali> | <cambodian> | <khmer> | <cjk-decimal> | <devanagari> | <georgian> | <gujarati> | <gurmukhi> | <hebrew> | <kannada> | <lao> | <malayalam> | <mongolian> | <myanmar> | <oriya> | <persian> | <lower-roman> | <upper-roman> | <tamil> | <telugu> | <thai> | <tibetan> | <lower-alpha> | <lower-latin> | <upper-alpha> | <upper-latin> | <lower-greek> | <hiragana> | <hiragana-iroha> | <katakana> | <katakana-iroha> | <disc> | <circle> | <square> | <disclosure-open> | <disclosure-closed> | <cjk-earthly-branch> | <cjk-heavenly-stem> | <korean-hangul-formal> | <korean-hanja-informal> | <korean-hanja-formal> | <ethiopic-numeric>"
+    },
+    {
+      "type": "symbols()",
+      "syntax": "symbols( <symbols-type>? [ <string> | <image> ]+ )"
+    },
+    {
+      "type": "symbols-type",
+      "syntax": "cyclic | numeric | alphabetic | symbolic | fixed"
+    },
+    {
+      "type": "image",
+      "syntax": "<url> | <gradient>"
+    },
+    {
+      "type": "url",
+      "syntax": "<url()> | <src()>"
+    },
+    {
+      "type": "url()",
+      "syntax": "url( <string> <url-modifier>* ) | <url-token>"
+    },
+    {
+      "type": "src()",
+      "syntax": "src( <string> <url-modifier>* )"
+    }
+  ]
+}

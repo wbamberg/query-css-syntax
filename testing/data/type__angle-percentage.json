@@ -1,0 +1,11 @@
+{
+  "name": "angle-percentage",
+  "type": "type",
+  "syntax": "[ <angle> | <percentage> ]",
+  "constituents": [
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    }
+  ]
+}

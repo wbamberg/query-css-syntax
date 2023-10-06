@@ -1,0 +1,19 @@
+{
+  "name": "font-variant-numeric",
+  "type": "property",
+  "syntax": "normal | [ <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero ]",
+  "constituents": [
+    {
+      "type": "numeric-figure-values",
+      "syntax": "[ lining-nums | oldstyle-nums ]"
+    },
+    {
+      "type": "numeric-spacing-values",
+      "syntax": "[ proportional-nums | tabular-nums ]"
+    },
+    {
+      "type": "numeric-fraction-values",
+      "syntax": "[ diagonal-fractions | stacked-fractions ]"
+    }
+  ]
+}

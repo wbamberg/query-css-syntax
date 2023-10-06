@@ -1,0 +1,6 @@
+{
+  "name": "minmax",
+  "type": "function",
+  "syntax": "minmax(min, max)",
+  "constituents": []
+}

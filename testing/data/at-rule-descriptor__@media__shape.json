@@ -1,0 +1,6 @@
+{
+  "name": "@media/shape",
+  "type": "at-rule-descriptor",
+  "syntax": "rect | round",
+  "constituents": []
+}

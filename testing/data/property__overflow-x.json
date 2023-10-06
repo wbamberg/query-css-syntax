@@ -1,0 +1,6 @@
+{
+  "name": "overflow-x",
+  "type": "property",
+  "syntax": "visible | hidden | clip | scroll | auto",
+  "constituents": []
+}

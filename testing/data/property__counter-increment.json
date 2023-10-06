@@ -1,0 +1,6 @@
+{
+  "name": "counter-increment",
+  "type": "property",
+  "syntax": "[ <counter-name> <integer>? ]+ | none",
+  "constituents": []
+}

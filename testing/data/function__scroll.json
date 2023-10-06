@@ -1,0 +1,15 @@
+{
+  "name": "scroll",
+  "type": "function",
+  "syntax": "scroll( [ <scroller> || <axis> ]? )",
+  "constituents": [
+    {
+      "type": "scroller",
+      "syntax": "root | nearest | self"
+    },
+    {
+      "type": "axis",
+      "syntax": "block | inline | x | y"
+    }
+  ]
+}

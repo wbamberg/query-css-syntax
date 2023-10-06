@@ -1,0 +1,6 @@
+{
+  "name": "word-spacing",
+  "type": "property",
+  "syntax": "normal | <length>",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "border-image-repeat",
+  "type": "property",
+  "syntax": "[ stretch | repeat | round | space ]{1,2}",
+  "constituents": []
+}

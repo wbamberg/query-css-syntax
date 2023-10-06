@@ -1,0 +1,6 @@
+{
+  "name": "scroll-timeline-axis",
+  "type": "property",
+  "syntax": "[ block | inline | x | y ]#",
+  "constituents": []
+}

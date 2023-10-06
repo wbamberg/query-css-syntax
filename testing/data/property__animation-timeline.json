@@ -1,0 +1,27 @@
+{
+  "name": "animation-timeline",
+  "type": "property",
+  "syntax": "<single-animation-timeline>#",
+  "constituents": [
+    {
+      "type": "single-animation-timeline",
+      "syntax": "auto | none | <dashed-ident> | <scroll()> | <view()>"
+    },
+    {
+      "type": "scroll()",
+      "syntax": "scroll( [ <scroller> || <axis> ]? )"
+    },
+    {
+      "type": "view()",
+      "syntax": "view( [ <axis> || <'view-timeline-inset'> ]? )"
+    },
+    {
+      "type": "scroller",
+      "syntax": "root | nearest | self"
+    },
+    {
+      "type": "axis",
+      "syntax": "block | inline | x | y"
+    }
+  ]
+}

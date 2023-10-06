@@ -1,0 +1,6 @@
+{
+  "name": "container-name",
+  "type": "property",
+  "syntax": "none | <custom-ident>+",
+  "constituents": []
+}

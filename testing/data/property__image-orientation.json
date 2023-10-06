@@ -1,0 +1,11 @@
+{
+  "name": "image-orientation",
+  "type": "property",
+  "syntax": "from-image | none | [ <angle> || flip ]",
+  "constituents": [
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    }
+  ]
+}

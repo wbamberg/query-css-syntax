@@ -1,0 +1,27 @@
+{
+  "name": "grid-auto-rows",
+  "type": "property",
+  "syntax": "<track-size>+",
+  "constituents": [
+    {
+      "type": "track-size",
+      "syntax": "<track-breadth> | minmax( <inflexible-breadth> , <track-breadth> ) | fit-content( <length-percentage [0,∞]> )"
+    },
+    {
+      "type": "track-breadth",
+      "syntax": "<length-percentage [0,∞]> | <flex [0,∞]> | min-content | max-content | auto"
+    },
+    {
+      "type": "inflexible-breadth",
+      "syntax": "<length-percentage [0,∞]> | min-content | max-content | auto"
+    },
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    },
+    {
+      "type": "flex",
+      "syntax": "<fr>"
+    }
+  ]
+}

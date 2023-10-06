@@ -1,0 +1,6 @@
+{
+  "name": "text-decoration-line",
+  "type": "property",
+  "syntax": "none | [ underline || overline || line-through || blink ]",
+  "constituents": []
+}

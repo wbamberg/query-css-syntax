@@ -1,0 +1,11 @@
+{
+  "name": "image-resolution",
+  "type": "property",
+  "syntax": "[ from-image || <resolution> ] && snap?",
+  "constituents": [
+    {
+      "type": "resolution",
+      "syntax": "<dpi> | <dpcm> | <dppx> | <x>"
+    }
+  ]
+}

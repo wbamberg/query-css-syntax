@@ -1,0 +1,6 @@
+{
+  "name": "break-inside",
+  "type": "property",
+  "syntax": "auto | avoid | avoid-page | avoid-column | avoid-region",
+  "constituents": []
+}

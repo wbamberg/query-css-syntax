@@ -1,0 +1,55 @@
+{
+  "name": "offset-path",
+  "type": "property",
+  "syntax": "none | <offset-path> || <coord-box>",
+  "constituents": [
+    {
+      "type": "offset-path",
+      "syntax": "<ray()> | <url> | <basic-shape>"
+    },
+    {
+      "type": "coord-box",
+      "syntax": "content-box | padding-box | border-box | fill-box | stroke-box | view-box"
+    },
+    {
+      "type": "ray()",
+      "syntax": "ray( <angle> && <ray-size>? && contain? && [at <position>]? )"
+    },
+    {
+      "type": "url",
+      "syntax": "<url()> | <src()>"
+    },
+    {
+      "type": "basic-shape",
+      "syntax": "<inset()> | <xywh()> | <rect()> | <circle()> | <ellipse()> | <polygon()> | <path()>"
+    },
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    },
+    {
+      "type": "ray-size",
+      "syntax": "closest-side | closest-corner | farthest-side | farthest-corner | sides"
+    },
+    {
+      "type": "position",
+      "syntax": "[ [ left | center | right ] || [ top | center | bottom ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ]? | [ [ left | right ] <length-percentage> ] && [ [ top | bottom ] <length-percentage> ] ]"
+    },
+    {
+      "type": "url()",
+      "syntax": "url( <string> <url-modifier>* ) | <url-token>"
+    },
+    {
+      "type": "src()",
+      "syntax": "src( <string> <url-modifier>* )"
+    },
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    },
+    {
+      "type": "shape-radius",
+      "syntax": "<length-percentage [0,∞]> | closest-side | farthest-side"
+    }
+  ]
+}

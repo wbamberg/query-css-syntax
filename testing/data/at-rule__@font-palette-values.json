@@ -1,0 +1,6 @@
+{
+  "name": "@font-palette-values",
+  "type": "at-rule",
+  "syntax": "@font-palette-values <dashed-ident> { <declaration-list> }",
+  "constituents": []
+}

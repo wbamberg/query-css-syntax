@@ -1,0 +1,6 @@
+{
+  "name": "counter-set",
+  "type": "property",
+  "syntax": "[ <counter-name> <integer>? ]+ | none",
+  "constituents": []
+}

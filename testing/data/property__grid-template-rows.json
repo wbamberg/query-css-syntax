@@ -1,0 +1,67 @@
+{
+  "name": "grid-template-rows",
+  "type": "property",
+  "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>? | masonry",
+  "constituents": [
+    {
+      "type": "track-list",
+      "syntax": "[ <line-names>? [ <track-size> | <track-repeat> ] ]+ <line-names>?"
+    },
+    {
+      "type": "auto-track-list",
+      "syntax": "[ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>? <auto-repeat> [ <line-names>? [ <fixed-size> | <fixed-repeat> ] ]* <line-names>?"
+    },
+    {
+      "type": "line-name-list",
+      "syntax": "[ <line-names> | <name-repeat> ]+"
+    },
+    {
+      "type": "line-names",
+      "syntax": "'[' <custom-ident>* ']'"
+    },
+    {
+      "type": "track-size",
+      "syntax": "<track-breadth> | minmax( <inflexible-breadth> , <track-breadth> ) | fit-content( <length-percentage [0,∞]> )"
+    },
+    {
+      "type": "track-repeat",
+      "syntax": "repeat( [ <integer [1,∞]> ] , [ <line-names>? <track-size> ]+ <line-names>? )"
+    },
+    {
+      "type": "fixed-size",
+      "syntax": "<fixed-breadth> | minmax( <fixed-breadth> , <track-breadth> ) | minmax( <inflexible-breadth> , <fixed-breadth> )"
+    },
+    {
+      "type": "fixed-repeat",
+      "syntax": "repeat( [ <integer [1,∞]> ] , [ <line-names>? <fixed-size> ]+ <line-names>? )"
+    },
+    {
+      "type": "auto-repeat",
+      "syntax": "repeat( [ auto-fill | auto-fit ] , [ <line-names>? <fixed-size> ]+ <line-names>? )"
+    },
+    {
+      "type": "name-repeat",
+      "syntax": "repeat( [ <integer [1,∞]> | auto-fill ], <line-names>+)"
+    },
+    {
+      "type": "track-breadth",
+      "syntax": "<length-percentage [0,∞]> | <flex [0,∞]> | min-content | max-content | auto"
+    },
+    {
+      "type": "inflexible-breadth",
+      "syntax": "<length-percentage [0,∞]> | min-content | max-content | auto"
+    },
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    },
+    {
+      "type": "fixed-breadth",
+      "syntax": "<length-percentage [0,∞]>"
+    },
+    {
+      "type": "flex",
+      "syntax": "<fr>"
+    }
+  ]
+}

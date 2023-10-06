@@ -1,0 +1,19 @@
+{
+  "name": "color-interpolation-method",
+  "type": "type",
+  "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? ]",
+  "constituents": [
+    {
+      "type": "rectangular-color-space",
+      "syntax": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020 | lab | oklab | xyz | xyz-d50 | xyz-d65"
+    },
+    {
+      "type": "polar-color-space",
+      "syntax": "hsl | hwb | lch | oklch"
+    },
+    {
+      "type": "hue-interpolation-method",
+      "syntax": "[ shorter | longer | increasing | decreasing ] hue"
+    }
+  ]
+}

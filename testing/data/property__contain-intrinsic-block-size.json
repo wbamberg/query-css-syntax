@@ -1,0 +1,6 @@
+{
+  "name": "contain-intrinsic-block-size",
+  "type": "property",
+  "syntax": "auto? [ none | <length> ]",
+  "constituents": []
+}

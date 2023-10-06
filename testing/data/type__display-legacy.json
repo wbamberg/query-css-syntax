@@ -1,0 +1,6 @@
+{
+  "name": "display-legacy",
+  "type": "type",
+  "syntax": "inline-block | inline-table | inline-flex | inline-grid",
+  "constituents": []
+}

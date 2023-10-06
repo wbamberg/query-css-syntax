@@ -1,0 +1,6 @@
+{
+  "name": "line-style",
+  "type": "type",
+  "syntax": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset",
+  "constituents": []
+}

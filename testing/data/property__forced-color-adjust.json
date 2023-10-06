@@ -1,0 +1,6 @@
+{
+  "name": "forced-color-adjust",
+  "type": "property",
+  "syntax": "auto | none | preserve-parent-color",
+  "constituents": []
+}

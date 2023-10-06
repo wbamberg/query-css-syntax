@@ -1,0 +1,11 @@
+{
+  "name": "background-attachment",
+  "type": "property",
+  "syntax": "<attachment>#",
+  "constituents": [
+    {
+      "type": "attachment",
+      "syntax": "scroll | fixed | local"
+    }
+  ]
+}

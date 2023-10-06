@@ -1,0 +1,6 @@
+{
+  "name": "math-shift",
+  "type": "property",
+  "syntax": "normal | compact",
+  "constituents": []
+}

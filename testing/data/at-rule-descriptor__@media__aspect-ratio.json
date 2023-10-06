@@ -1,0 +1,11 @@
+{
+  "name": "@media/aspect-ratio",
+  "type": "at-rule-descriptor",
+  "syntax": "<ratio>",
+  "constituents": [
+    {
+      "type": "ratio",
+      "syntax": "<number [0,∞]> [ / <number [0,∞]> ]?"
+    }
+  ]
+}

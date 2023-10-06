@@ -1,0 +1,6 @@
+{
+  "name": "z-index",
+  "type": "property",
+  "syntax": "auto | <integer> | inherit",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "place-self",
+  "type": "property",
+  "syntax": "<'align-self'> <'justify-self'>?",
+  "constituents": []
+}

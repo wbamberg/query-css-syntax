@@ -1,0 +1,11 @@
+{
+  "name": "animation-composition",
+  "type": "property",
+  "syntax": "<single-animation-composition>#",
+  "constituents": [
+    {
+      "type": "single-animation-composition",
+      "syntax": "replace | add | accumulate"
+    }
+  ]
+}

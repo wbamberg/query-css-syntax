@@ -1,0 +1,11 @@
+{
+  "name": "animation-direction",
+  "type": "property",
+  "syntax": "<single-animation-direction>#",
+  "constituents": [
+    {
+      "type": "single-animation-direction",
+      "syntax": "normal | reverse | alternate | alternate-reverse"
+    }
+  ]
+}

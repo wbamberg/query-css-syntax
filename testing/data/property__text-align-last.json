@@ -1,0 +1,6 @@
+{
+  "name": "text-align-last",
+  "type": "property",
+  "syntax": "auto | start | end | left | right | center | justify | match-parent",
+  "constituents": []
+}

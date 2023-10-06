@@ -1,0 +1,6 @@
+{
+  "name": "perspective",
+  "type": "function",
+  "syntax": "perspective( [ <length [0,∞]> | none ] )",
+  "constituents": []
+}

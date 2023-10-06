@@ -1,0 +1,39 @@
+{
+  "name": "transition-timing-function",
+  "type": "property",
+  "syntax": "<easing-function>#",
+  "constituents": [
+    {
+      "type": "easing-function",
+      "syntax": "linear | <linear-easing-function> | <cubic-bezier-easing-function> | <step-easing-function>"
+    },
+    {
+      "type": "linear-easing-function",
+      "syntax": "linear(<linear-stop-list>)"
+    },
+    {
+      "type": "cubic-bezier-easing-function",
+      "syntax": "ease | ease-in | ease-out | ease-in-out | cubic-bezier(<number [0,1]>, <number>, <number [0,1]>, <number>)"
+    },
+    {
+      "type": "step-easing-function",
+      "syntax": "step-start | step-end | steps(<integer>[, <step-position>]?)"
+    },
+    {
+      "type": "linear-stop-list",
+      "syntax": "[ <linear-stop> ]#"
+    },
+    {
+      "type": "step-position",
+      "syntax": "jump-start | jump-end | jump-none | jump-both | start | end"
+    },
+    {
+      "type": "linear-stop",
+      "syntax": "<number> && <linear-stop-length>?"
+    },
+    {
+      "type": "linear-stop-length",
+      "syntax": "<percentage>{1,2}"
+    }
+  ]
+}

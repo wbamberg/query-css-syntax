@@ -1,0 +1,6 @@
+{
+  "name": "overflow-wrap",
+  "type": "property",
+  "syntax": "normal | break-word | anywhere",
+  "constituents": []
+}

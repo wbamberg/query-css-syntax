@@ -1,0 +1,11 @@
+{
+  "name": "@media/resolution",
+  "type": "at-rule-descriptor",
+  "syntax": "<resolution> | infinite",
+  "constituents": [
+    {
+      "type": "resolution",
+      "syntax": "<dpi> | <dpcm> | <dppx> | <x>"
+    }
+  ]
+}

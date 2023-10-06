@@ -1,0 +1,6 @@
+{
+  "name": "word-break",
+  "type": "property",
+  "syntax": "normal | keep-all | break-all | break-word",
+  "constituents": []
+}

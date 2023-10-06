@@ -1,0 +1,11 @@
+{
+  "name": "mask-composite",
+  "type": "property",
+  "syntax": "<compositing-operator>#",
+  "constituents": [
+    {
+      "type": "compositing-operator",
+      "syntax": "add | subtract | intersect | exclude"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "flex-shrink",
+  "type": "property",
+  "syntax": "<number [0,∞]>",
+  "constituents": []
+}

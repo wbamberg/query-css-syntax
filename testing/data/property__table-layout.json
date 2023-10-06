@@ -1,0 +1,6 @@
+{
+  "name": "table-layout",
+  "type": "property",
+  "syntax": "auto | fixed",
+  "constituents": []
+}

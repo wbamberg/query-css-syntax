@@ -1,0 +1,6 @@
+{
+  "name": "saturate",
+  "type": "function",
+  "syntax": "saturate( [ <number> | <percentage> ]? )",
+  "constituents": []
+}

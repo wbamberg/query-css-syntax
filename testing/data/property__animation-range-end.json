@@ -1,0 +1,11 @@
+{
+  "name": "animation-range-end",
+  "type": "property",
+  "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "max-inline-size",
+  "type": "property",
+  "syntax": "<'max-width'> | stretch | fit-content | contain",
+  "constituents": []
+}

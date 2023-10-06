@@ -1,0 +1,6 @@
+{
+  "name": "scroll-snap-type",
+  "type": "property",
+  "syntax": "none | [ x | y | block | inline | both ] [ mandatory | proximity ]?",
+  "constituents": []
+}

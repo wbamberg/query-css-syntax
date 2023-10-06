@@ -1,0 +1,6 @@
+{
+  "name": "-webkit-line-clamp",
+  "type": "property",
+  "syntax": "none | <integer [1,∞]>",
+  "constituents": []
+}

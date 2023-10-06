@@ -1,0 +1,6 @@
+{
+  "name": "overflow",
+  "type": "property",
+  "syntax": "<'overflow-block'>{1,2}",
+  "constituents": []
+}

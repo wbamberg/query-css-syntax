@@ -1,0 +1,11 @@
+{
+  "name": "translate",
+  "type": "property",
+  "syntax": "none | <length-percentage> [ <length-percentage> <length>? ]?",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

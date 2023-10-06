@@ -1,0 +1,6 @@
+{
+  "name": "accent-color",
+  "type": "property",
+  "syntax": "auto | <color>",
+  "constituents": []
+}

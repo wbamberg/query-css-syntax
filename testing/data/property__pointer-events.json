@@ -1,0 +1,6 @@
+{
+  "name": "pointer-events",
+  "type": "property",
+  "syntax": "auto | bounding-box | visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | none",
+  "constituents": []
+}

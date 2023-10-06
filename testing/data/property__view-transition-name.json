@@ -1,0 +1,6 @@
+{
+  "name": "view-transition-name",
+  "type": "property",
+  "syntax": "none | <custom-ident>",
+  "constituents": []
+}

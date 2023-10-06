@@ -1,0 +1,15 @@
+{
+  "name": "background-position",
+  "type": "property",
+  "syntax": "<bg-position>#",
+  "constituents": [
+    {
+      "type": "bg-position",
+      "syntax": "[ left | center | right | top | bottom | <length-percentage> ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ] | [ center | [ left | right ] <length-percentage>? ] && [ center | [ top | bottom ] <length-percentage>? ]"
+    },
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

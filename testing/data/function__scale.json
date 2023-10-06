@@ -1,0 +1,6 @@
+{
+  "name": "scale",
+  "type": "function",
+  "syntax": "scale( <number> , <number>? )",
+  "constituents": []
+}

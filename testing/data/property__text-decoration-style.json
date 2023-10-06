@@ -1,0 +1,6 @@
+{
+  "name": "text-decoration-style",
+  "type": "property",
+  "syntax": "solid | double | dotted | dashed | wavy",
+  "constituents": []
+}

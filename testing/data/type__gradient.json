@@ -1,0 +1,71 @@
+{
+  "name": "gradient",
+  "type": "type",
+  "syntax": "<linear-gradient()> | <repeating-linear-gradient()> | <radial-gradient()> | <repeating-radial-gradient()>",
+  "constituents": [
+    {
+      "type": "linear-gradient()",
+      "syntax": "linear-gradient( [ <linear-gradient-syntax> ] )"
+    },
+    {
+      "type": "repeating-linear-gradient()",
+      "syntax": "repeating-linear-gradient( [ <linear-gradient-syntax> ] )"
+    },
+    {
+      "type": "radial-gradient()",
+      "syntax": "radial-gradient( [ <radial-gradient-syntax> ] )"
+    },
+    {
+      "type": "repeating-radial-gradient()",
+      "syntax": "repeating-radial-gradient( [ <radial-gradient-syntax> ] )"
+    },
+    {
+      "type": "linear-gradient-syntax",
+      "syntax": "[ <angle> | to <side-or-corner> ]? , <color-stop-list>"
+    },
+    {
+      "type": "radial-gradient-syntax",
+      "syntax": "[ <rg-ending-shape> || <rg-size> ]? [ at <position> ]? , <color-stop-list>"
+    },
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    },
+    {
+      "type": "side-or-corner",
+      "syntax": "[left | right] || [top | bottom]"
+    },
+    {
+      "type": "color-stop-list",
+      "syntax": "<linear-color-stop> , [ <linear-color-hint>? , <linear-color-stop> ]#"
+    },
+    {
+      "type": "rg-ending-shape",
+      "syntax": "circle | ellipse"
+    },
+    {
+      "type": "rg-size",
+      "syntax": "<rg-extent-keyword> | <length [0,∞]> | <length-percentage [0,∞]>{2}"
+    },
+    {
+      "type": "position",
+      "syntax": "[ [ left | center | right ] || [ top | center | bottom ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ]? | [ [ left | right ] <length-percentage> ] && [ [ top | bottom ] <length-percentage> ] ]"
+    },
+    {
+      "type": "linear-color-stop",
+      "syntax": "<color> <length-percentage>?"
+    },
+    {
+      "type": "linear-color-hint",
+      "syntax": "<length-percentage>"
+    },
+    {
+      "type": "rg-extent-keyword",
+      "syntax": "closest-corner | closest-side | farthest-corner | farthest-side"
+    },
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

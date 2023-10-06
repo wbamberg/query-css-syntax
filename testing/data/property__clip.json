@@ -1,0 +1,27 @@
+{
+  "name": "clip",
+  "type": "property",
+  "syntax": "<rect()> | auto",
+  "constituents": [
+    {
+      "type": "rect()",
+      "syntax": "rect( <top>, <right>, <bottom>, <left> )"
+    },
+    {
+      "type": "top",
+      "syntax": "<auto>"
+    },
+    {
+      "type": "right",
+      "syntax": "<auto>"
+    },
+    {
+      "type": "bottom",
+      "syntax": "<auto>"
+    },
+    {
+      "type": "left",
+      "syntax": "<auto>"
+    }
+  ]
+}

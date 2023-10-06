@@ -1,0 +1,11 @@
+{
+  "name": "grid-row-start",
+  "type": "property",
+  "syntax": "<grid-line>",
+  "constituents": [
+    {
+      "type": "grid-line",
+      "syntax": "auto | <custom-ident> | [ [ <integer [-∞,-1]> | <integer [1,∞]> ] && <custom-ident>? ] | [ span && [ <integer [1,∞]> || <custom-ident> ] ]"
+    }
+  ]
+}

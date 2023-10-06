@@ -1,0 +1,6 @@
+{
+  "name": "mask-border-mode",
+  "type": "property",
+  "syntax": "luminance | alpha",
+  "constituents": []
+}

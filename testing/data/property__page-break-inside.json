@@ -1,0 +1,6 @@
+{
+  "name": "page-break-inside",
+  "type": "property",
+  "syntax": "avoid | auto | inherit",
+  "constituents": []
+}

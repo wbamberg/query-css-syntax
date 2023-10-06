@@ -1,0 +1,6 @@
+{
+  "name": "border-block-end-color",
+  "type": "property",
+  "syntax": "<'border-top-color'>",
+  "constituents": []
+}

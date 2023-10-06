@@ -1,0 +1,6 @@
+{
+  "name": "scrollbar-color",
+  "type": "property",
+  "syntax": "auto | <color>{2}",
+  "constituents": []
+}

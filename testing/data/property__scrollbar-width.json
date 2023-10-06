@@ -1,0 +1,6 @@
+{
+  "name": "scrollbar-width",
+  "type": "property",
+  "syntax": "auto | thin | none",
+  "constituents": []
+}

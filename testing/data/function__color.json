@@ -1,0 +1,31 @@
+{
+  "name": "color",
+  "type": "function",
+  "syntax": "color( <colorspace-params> [ / [ <alpha-value> | none ] ]? )",
+  "constituents": [
+    {
+      "type": "colorspace-params",
+      "syntax": "[ <predefined-rgb-params> | <xyz-params>]"
+    },
+    {
+      "type": "alpha-value",
+      "syntax": "<number> | <percentage>"
+    },
+    {
+      "type": "predefined-rgb-params",
+      "syntax": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
+    },
+    {
+      "type": "xyz-params",
+      "syntax": "<xyz-space> [ <number> | <percentage> | none ]{3}"
+    },
+    {
+      "type": "predefined-rgb",
+      "syntax": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
+    },
+    {
+      "type": "xyz-space",
+      "syntax": "xyz | xyz-d50 | xyz-d65"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "border-spacing",
+  "type": "property",
+  "syntax": "<length>{1,2}",
+  "constituents": []
+}

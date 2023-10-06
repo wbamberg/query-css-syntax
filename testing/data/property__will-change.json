@@ -1,0 +1,11 @@
+{
+  "name": "will-change",
+  "type": "property",
+  "syntax": "auto | <animateable-feature>#",
+  "constituents": [
+    {
+      "type": "animateable-feature",
+      "syntax": "scroll-position | contents | <custom-ident>"
+    }
+  ]
+}

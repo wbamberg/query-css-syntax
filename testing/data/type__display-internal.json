@@ -1,0 +1,6 @@
+{
+  "name": "display-internal",
+  "type": "type",
+  "syntax": "table-row-group | table-header-group | table-footer-group | table-row | table-cell | table-column-group | table-column | table-caption | ruby-base | ruby-text | ruby-base-container | ruby-text-container",
+  "constituents": []
+}

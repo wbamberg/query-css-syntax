@@ -1,0 +1,6 @@
+{
+  "name": "@font-face/font-stretch",
+  "type": "at-rule-descriptor",
+  "syntax": "auto | <'font-stretch'>{1,2}",
+  "constituents": []
+}

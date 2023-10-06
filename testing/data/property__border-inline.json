@@ -1,0 +1,6 @@
+{
+  "name": "border-inline",
+  "type": "property",
+  "syntax": "<'border-block-start'>",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "flex-flow",
+  "type": "property",
+  "syntax": "<'flex-direction'> || <'flex-wrap'>",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "matrix3d",
+  "type": "function",
+  "syntax": "matrix3d( <number>#{16} )",
+  "constituents": []
+}

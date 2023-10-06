@@ -1,0 +1,15 @@
+{
+  "name": "background-size",
+  "type": "property",
+  "syntax": "<bg-size>#",
+  "constituents": [
+    {
+      "type": "bg-size",
+      "syntax": "[ <length-percentage [0,∞]> | auto ]{1,2} | cover | contain"
+    },
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

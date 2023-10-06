@@ -1,0 +1,6 @@
+{
+  "name": "border-inline-color",
+  "type": "property",
+  "syntax": "<'border-top-color'>{1,2}",
+  "constituents": []
+}

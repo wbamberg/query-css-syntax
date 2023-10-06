@@ -1,0 +1,6 @@
+{
+  "name": "flex-basis",
+  "type": "property",
+  "syntax": "content | <'width'>",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "scroll-margin-inline-end",
+  "type": "property",
+  "syntax": "<length>",
+  "constituents": []
+}

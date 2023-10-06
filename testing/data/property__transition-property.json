@@ -1,0 +1,11 @@
+{
+  "name": "transition-property",
+  "type": "property",
+  "syntax": "none | <single-transition-property>#",
+  "constituents": [
+    {
+      "type": "single-transition-property",
+      "syntax": "all | <custom-ident>"
+    }
+  ]
+}

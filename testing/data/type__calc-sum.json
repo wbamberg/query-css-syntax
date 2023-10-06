@@ -1,0 +1,23 @@
+{
+  "name": "calc-sum",
+  "type": "type",
+  "syntax": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*",
+  "constituents": [
+    {
+      "type": "calc-product",
+      "syntax": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
+    },
+    {
+      "type": "calc-value",
+      "syntax": "<number> | <dimension> | <percentage> | <calc-constant> | ( <calc-sum> )"
+    },
+    {
+      "type": "calc-constant",
+      "syntax": "e | pi | infinity | -infinity | NaN"
+    },
+    {
+      "type": "calc-sum",
+      "syntax": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
+    }
+  ]
+}

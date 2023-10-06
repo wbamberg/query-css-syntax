@@ -1,0 +1,6 @@
+{
+  "name": "timeline-scope",
+  "type": "property",
+  "syntax": "none | <dashed-ident>#",
+  "constituents": []
+}

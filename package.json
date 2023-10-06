@@ -1,13 +1,30 @@
 {
   "name": "query-css-syntax",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "query-property": "node cli.js"
+    "add-syntax": "node testing/add-syntax.js",
+    "eslint": "eslint --fix .",
+    "prettier-check": "prettier --check .",
+    "prettier-format": "prettier --write .",
+    "query-syntax": "node cli.js",
+    "test": "node testing/check-syntaxes.js"
   },
   "dependencies": {
-    "@webref/css": "^6.6.2",
+    "@webref/css": "^6.7.1",
     "css-tree": "^2.3.1"
+  },
+  "devDependencies": {
+    "diff": "^5.1.0",
+    "eslint": "^8.50.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-unicorn": "^48.0.1",
+    "prettier": "^3.0.3",
+    "prettier-plugin-packagejson": "^2.4.5"
+  },
+  "engines": {
+    "node": "^10 || ^12.20.0 || ^14.13.0 || >=15.0.0"
   }
 }

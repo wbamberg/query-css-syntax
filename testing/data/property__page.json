@@ -1,0 +1,6 @@
+{
+  "name": "page",
+  "type": "property",
+  "syntax": "auto | <custom-ident>",
+  "constituents": []
+}

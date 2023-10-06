@@ -1,0 +1,6 @@
+{
+  "name": "outline",
+  "type": "property",
+  "syntax": "[ <'outline-color'> || <'outline-style'> || <'outline-width'> ]",
+  "constituents": []
+}

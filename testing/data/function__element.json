@@ -1,0 +1,11 @@
+{
+  "name": "element",
+  "type": "function",
+  "syntax": "element( <id-selector> )",
+  "constituents": [
+    {
+      "type": "id-selector",
+      "syntax": "<hash-token>"
+    }
+  ]
+}

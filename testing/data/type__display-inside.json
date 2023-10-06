@@ -1,0 +1,6 @@
+{
+  "name": "display-inside",
+  "type": "type",
+  "syntax": "flow | flow-root | table | flex | grid | ruby",
+  "constituents": []
+}

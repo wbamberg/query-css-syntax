@@ -1,0 +1,6 @@
+{
+  "name": "caret-color",
+  "type": "property",
+  "syntax": "auto | <color>",
+  "constituents": []
+}

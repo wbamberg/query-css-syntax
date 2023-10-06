@@ -1,0 +1,6 @@
+{
+  "name": "place-content",
+  "type": "property",
+  "syntax": "<'align-content'> <'justify-content'>?",
+  "constituents": []
+}

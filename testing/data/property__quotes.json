@@ -1,0 +1,6 @@
+{
+  "name": "quotes",
+  "type": "property",
+  "syntax": "auto | none | [ <string> <string> ]+",
+  "constituents": []
+}

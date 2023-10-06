@@ -1,0 +1,19 @@
+{
+  "name": "@page",
+  "type": "at-rule",
+  "syntax": "@page <page-selector-list>? { <declaration-rule-list> }",
+  "constituents": [
+    {
+      "type": "page-selector-list",
+      "syntax": "<page-selector>#"
+    },
+    {
+      "type": "page-selector",
+      "syntax": "[ <ident-token>? <pseudo-page>* ]!"
+    },
+    {
+      "type": "pseudo-page",
+      "syntax": "':' [ left | right | first | blank ]"
+    }
+  ]
+}

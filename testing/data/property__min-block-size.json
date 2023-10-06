@@ -1,0 +1,6 @@
+{
+  "name": "min-block-size",
+  "type": "property",
+  "syntax": "<'min-width'> | stretch | fit-content | contain",
+  "constituents": []
+}

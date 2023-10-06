@@ -1,0 +1,6 @@
+{
+  "name": "image-rendering",
+  "type": "property",
+  "syntax": "auto | smooth | high-quality | pixelated | crisp-edges",
+  "constituents": []
+}

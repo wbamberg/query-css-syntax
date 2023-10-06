@@ -1,0 +1,11 @@
+{
+  "name": "mix-blend-mode",
+  "type": "property",
+  "syntax": "<blend-mode> | plus-darker | plus-lighter",
+  "constituents": [
+    {
+      "type": "blend-mode",
+      "syntax": "normal | multiply | screen | overlay | darken | lighten | color-dodge |color-burn | hard-light | soft-light | difference | exclusion | hue | saturation | color | luminosity"
+    }
+  ]
+}

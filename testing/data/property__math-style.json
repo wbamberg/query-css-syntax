@@ -1,0 +1,6 @@
+{
+  "name": "math-style",
+  "type": "property",
+  "syntax": "normal | compact",
+  "constituents": []
+}

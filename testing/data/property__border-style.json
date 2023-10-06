@@ -1,0 +1,11 @@
+{
+  "name": "border-style",
+  "type": "property",
+  "syntax": "<line-style>{1,4}",
+  "constituents": [
+    {
+      "type": "line-style",
+      "syntax": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
+    }
+  ]
+}

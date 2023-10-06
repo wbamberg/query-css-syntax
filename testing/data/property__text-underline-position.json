@@ -1,0 +1,6 @@
+{
+  "name": "text-underline-position",
+  "type": "property",
+  "syntax": "auto | [ under || [ left | right ] ]",
+  "constituents": []
+}

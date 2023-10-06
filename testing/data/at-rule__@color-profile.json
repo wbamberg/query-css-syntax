@@ -1,0 +1,6 @@
+{
+  "name": "@color-profile",
+  "type": "at-rule",
+  "syntax": "@color-profile [<dashed-ident> | device-cmyk] { <declaration-list> }",
+  "constituents": []
+}

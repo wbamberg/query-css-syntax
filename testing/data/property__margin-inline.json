@@ -1,0 +1,6 @@
+{
+  "name": "margin-inline",
+  "type": "property",
+  "syntax": "<'margin-top'>{1,2}",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "offset",
+  "type": "property",
+  "syntax": "[ <'offset-position'>? [ <'offset-path'> [ <'offset-distance'> || <'offset-rotate'> ]? ]? ]! [ / <'offset-anchor'> ]?",
+  "constituents": []
+}

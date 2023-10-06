@@ -1,0 +1,6 @@
+{
+  "name": "user-select",
+  "type": "property",
+  "syntax": "auto | text | none | contain | all",
+  "constituents": []
+}

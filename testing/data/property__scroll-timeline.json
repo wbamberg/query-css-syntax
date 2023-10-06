@@ -1,0 +1,6 @@
+{
+  "name": "scroll-timeline",
+  "type": "property",
+  "syntax": "[ <'scroll-timeline-name'> <'scroll-timeline-axis'>? ]#",
+  "constituents": []
+}

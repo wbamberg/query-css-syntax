@@ -1,0 +1,6 @@
+{
+  "name": "letter-spacing",
+  "type": "property",
+  "syntax": "normal | <length>",
+  "constituents": []
+}

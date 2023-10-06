@@ -1,0 +1,6 @@
+{
+  "name": "scrollbar-gutter",
+  "type": "property",
+  "syntax": "auto | stable && both-edges?",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "mask-border-slice",
+  "type": "property",
+  "syntax": "[ <number> | <percentage> ]{1,4} fill?",
+  "constituents": []
+}

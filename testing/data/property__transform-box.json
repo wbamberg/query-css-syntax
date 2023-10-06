@@ -1,0 +1,6 @@
+{
+  "name": "transform-box",
+  "type": "property",
+  "syntax": "content-box | border-box | fill-box | stroke-box | view-box",
+  "constituents": []
+}

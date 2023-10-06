@@ -1,0 +1,6 @@
+{
+  "name": "page-break-after",
+  "type": "property",
+  "syntax": "auto | always | avoid | left | right | inherit",
+  "constituents": []
+}

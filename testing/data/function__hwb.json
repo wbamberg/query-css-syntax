@@ -1,0 +1,19 @@
+{
+  "name": "hwb",
+  "type": "function",
+  "syntax": "hwb( [<hue> | none] [<percentage> | <number> | none] [<percentage> | <number> | none] [ / [<alpha-value> | none] ]? )",
+  "constituents": [
+    {
+      "type": "hue",
+      "syntax": "<number> | <angle>"
+    },
+    {
+      "type": "alpha-value",
+      "syntax": "<number> | <percentage>"
+    },
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    }
+  ]
+}

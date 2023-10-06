@@ -1,0 +1,6 @@
+{
+  "name": "border-block-start",
+  "type": "property",
+  "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
+  "constituents": []
+}

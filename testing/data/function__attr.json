@@ -1,0 +1,11 @@
+{
+  "name": "attr",
+  "type": "function",
+  "syntax": "attr( <q-name> <attr-type>? , <declaration-value>?)",
+  "constituents": [
+    {
+      "type": "attr-type",
+      "syntax": "string | url | ident | color | number | percentage | length | angle | time | frequency | flex | <dimension-unit>"
+    }
+  ]
+}

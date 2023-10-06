@@ -1,0 +1,6 @@
+{
+  "name": "@font-face/font-language-override",
+  "type": "at-rule-descriptor",
+  "syntax": "normal | <string>",
+  "constituents": []
+}

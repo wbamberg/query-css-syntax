@@ -1,0 +1,6 @@
+{
+  "name": "grayscale",
+  "type": "function",
+  "syntax": "grayscale( [ <number> | <percentage> ]? )",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "outline-style",
+  "type": "property",
+  "syntax": "auto | <outline-line-style>",
+  "constituents": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "hue",
+  "type": "type",
+  "syntax": "<number> | <angle>",
+  "constituents": [
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    }
+  ]
+}

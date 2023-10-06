@@ -1,1 +1,1 @@
-export * from "./query-property-syntax.js";
+export * from "./query-syntax.js";

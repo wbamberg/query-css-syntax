@@ -1,0 +1,6 @@
+{
+  "name": "text-decoration",
+  "type": "property",
+  "syntax": "<'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'>",
+  "constituents": []
+}

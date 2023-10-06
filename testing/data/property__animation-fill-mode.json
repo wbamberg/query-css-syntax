@@ -1,0 +1,11 @@
+{
+  "name": "animation-fill-mode",
+  "type": "property",
+  "syntax": "<single-animation-fill-mode>#",
+  "constituents": [
+    {
+      "type": "single-animation-fill-mode",
+      "syntax": "none | forwards | backwards | both"
+    }
+  ]
+}

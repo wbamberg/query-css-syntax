@@ -1,0 +1,6 @@
+{
+  "name": "hyphens",
+  "type": "property",
+  "syntax": "none | manual | auto",
+  "constituents": []
+}

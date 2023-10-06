@@ -1,0 +1,6 @@
+{
+  "name": "contrast",
+  "type": "function",
+  "syntax": "contrast( [ <number> | <percentage> ]? )",
+  "constituents": []
+}

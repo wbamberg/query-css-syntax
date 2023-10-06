@@ -1,0 +1,6 @@
+{
+  "name": "view-timeline-name",
+  "type": "property",
+  "syntax": "[ none | <dashed-ident> ]#",
+  "constituents": []
+}

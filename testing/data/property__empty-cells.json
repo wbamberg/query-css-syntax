@@ -1,0 +1,6 @@
+{
+  "name": "empty-cells",
+  "type": "property",
+  "syntax": "show | hide",
+  "constituents": []
+}

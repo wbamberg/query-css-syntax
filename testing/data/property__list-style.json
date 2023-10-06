@@ -1,0 +1,6 @@
+{
+  "name": "list-style",
+  "type": "property",
+  "syntax": "<'list-style-position'> || <'list-style-image'> || <'list-style-type'>",
+  "constituents": []
+}

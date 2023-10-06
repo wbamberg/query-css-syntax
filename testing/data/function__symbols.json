@@ -1,0 +1,27 @@
+{
+  "name": "symbols",
+  "type": "function",
+  "syntax": "symbols( <symbols-type>? [ <string> | <image> ]+ )",
+  "constituents": [
+    {
+      "type": "symbols-type",
+      "syntax": "cyclic | numeric | alphabetic | symbolic | fixed"
+    },
+    {
+      "type": "image",
+      "syntax": "<url> | <gradient>"
+    },
+    {
+      "type": "url",
+      "syntax": "<url()> | <src()>"
+    },
+    {
+      "type": "url()",
+      "syntax": "url( <string> <url-modifier>* ) | <url-token>"
+    },
+    {
+      "type": "src()",
+      "syntax": "src( <string> <url-modifier>* )"
+    }
+  ]
+}

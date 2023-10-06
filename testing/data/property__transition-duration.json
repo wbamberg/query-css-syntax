@@ -1,0 +1,11 @@
+{
+  "name": "transition-duration",
+  "type": "property",
+  "syntax": "<time [0s,∞]>#",
+  "constituents": [
+    {
+      "type": "time",
+      "syntax": "<s> | <ms>"
+    }
+  ]
+}

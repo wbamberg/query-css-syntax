@@ -1,0 +1,6 @@
+{
+  "name": "brightness",
+  "type": "function",
+  "syntax": "brightness( [ <number> | <percentage> ]? )",
+  "constituents": []
+}
