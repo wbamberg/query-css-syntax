@@ -1,7 +1,7 @@
 {
   "name": "float",
   "type": "property",
-  "syntax": "block-start | block-end | inline-start | inline-end | snap-block | <snap-block()> | snap-inline | <snap-inline()> | left | right | top | bottom | none",
+  "syntax": "block-start | block-end | inline-start | inline-end | snap-block | <snap-block()> | snap-inline | <snap-inline()> | left | right | top | bottom | none | footnote",
   "constituents": [
     {
       "type": "snap-block()",

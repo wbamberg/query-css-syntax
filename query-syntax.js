@@ -99,7 +99,6 @@ function appendPropertyNewValues(list) {
 
 function extractDataFromSpec(spec) {
   addToConstructMap(properties, spec.properties);
-  appendPropertyNewValues(spec.properties);
   addToConstructMap(atrules, spec.atrules);
   addToConstructMap(selectors, spec.selectors);
 
@@ -128,6 +127,11 @@ for (const [, spec] of currentSpecs) {
 const draftSpecs = Object.entries(webRef).filter((s) => isDraftSpec(s[0]));
 for (const [, spec] of draftSpecs) {
   extractDataFromSpec(spec);
+}
+
+// append newValues
+for (const [, spec] of Object.entries(webRef)) {
+  appendPropertyNewValues(spec.properties);
 }
 
 /**
