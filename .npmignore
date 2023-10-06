@@ -1,0 +1,15 @@
+node_modules
+.idea
+.vscode
+.DS_Store
+yarn-debug.log*
+yarn-error.log*
+.eslintignore
+.eslintrc.json
+.github
+.nvmrc
+.prettierignore
+.prettierrc
+npm-debug.log
+package-lock.json
+testing
