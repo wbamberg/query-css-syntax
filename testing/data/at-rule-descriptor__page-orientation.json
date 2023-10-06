@@ -1,6 +1,0 @@
-{
-  "name": "page-orientation",
-  "type": "at-rule-descriptor",
-  "syntax": "upright | rotate-left | rotate-right",
-  "constituents": []
-}

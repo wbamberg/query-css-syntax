@@ -1,0 +1,6 @@
+{
+  "name": "@font-face/unicode-range",
+  "type": "at-rule-descriptor",
+  "syntax": "<urange>#",
+  "constituents": []
+}

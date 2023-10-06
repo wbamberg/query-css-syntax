@@ -1,0 +1,6 @@
+{
+  "name": "@property/syntax",
+  "type": "at-rule-descriptor",
+  "syntax": "<string>",
+  "constituents": []
+}

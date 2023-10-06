@@ -1,0 +1,6 @@
+{
+  "name": "@page/marks",
+  "type": "at-rule-descriptor",
+  "syntax": "none | [ crop || cross ]",
+  "constituents": []
+}

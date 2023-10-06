@@ -1,0 +1,19 @@
+{
+  "name": "@color-profile/src",
+  "type": "at-rule-descriptor",
+  "syntax": "<url>",
+  "constituents": [
+    {
+      "type": "url",
+      "syntax": "<url()> | <src()>"
+    },
+    {
+      "type": "url()",
+      "syntax": "url( <string> <url-modifier>* ) | <url-token>"
+    },
+    {
+      "type": "src()",
+      "syntax": "src( <string> <url-modifier>* )"
+    }
+  ]
+}

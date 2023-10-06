@@ -1,0 +1,119 @@
+{
+  "name": "@font-palette-values/override-colors",
+  "type": "at-rule-descriptor",
+  "syntax": "[ <integer [0,∞]> <absolute-color-base> ]#",
+  "constituents": [
+    {
+      "type": "absolute-color-base",
+      "syntax": "<hex-color> | <absolute-color-function> | <named-color> | transparent"
+    },
+    {
+      "type": "absolute-color-function",
+      "syntax": "<rgb()> | <rgba()> | <hsl()> | <hsla()> | <hwb()> | <lab()> | <lch()> | <oklab()> | <oklch()> | <color()>"
+    },
+    {
+      "type": "rgb()",
+      "syntax": "[ <legacy-rgb-syntax> | <modern-rgb-syntax> ]"
+    },
+    {
+      "type": "rgba()",
+      "syntax": "[ <legacy-rgba-syntax> | <modern-rgba-syntax> ]"
+    },
+    {
+      "type": "hsl()",
+      "syntax": "[ <legacy-hsl-syntax> | <modern-hsl-syntax> ]"
+    },
+    {
+      "type": "hsla()",
+      "syntax": "[ <legacy-hsla-syntax> | <modern-hsla-syntax> ]"
+    },
+    {
+      "type": "hwb()",
+      "syntax": "hwb( [<hue> | none] [<percentage> | <number> | none] [<percentage> | <number> | none] [ / [<alpha-value> | none] ]? )"
+    },
+    {
+      "type": "lab()",
+      "syntax": "lab( [<percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )"
+    },
+    {
+      "type": "lch()",
+      "syntax": "lch( [<percentage> | <number> | none] [ <percentage> | <number> | none] [ <hue> | none] [ / [<alpha-value> | none] ]? )"
+    },
+    {
+      "type": "oklab()",
+      "syntax": "oklab( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )"
+    },
+    {
+      "type": "oklch()",
+      "syntax": "oklch( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <hue> | none] [ / [<alpha-value> | none] ]? )"
+    },
+    {
+      "type": "color()",
+      "syntax": "color( <colorspace-params> [ / [ <alpha-value> | none ] ]? )"
+    },
+    {
+      "type": "legacy-rgb-syntax",
+      "syntax": "rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? )"
+    },
+    {
+      "type": "modern-rgb-syntax",
+      "syntax": "rgb( [ <number> | <percentage> | none]{3} [ / [<alpha-value> | none] ]? )"
+    },
+    {
+      "type": "legacy-rgba-syntax",
+      "syntax": "rgba( <percentage>#{3} , <alpha-value>? ) | rgba( <number>#{3} , <alpha-value>? )"
+    },
+    {
+      "type": "modern-rgba-syntax",
+      "syntax": "rgba( [ <number> | <percentage> | none]{3} [ / [<alpha-value> | none] ]? )"
+    },
+    {
+      "type": "legacy-hsl-syntax",
+      "syntax": "hsl( <hue>, <percentage>, <percentage>, <alpha-value>? )"
+    },
+    {
+      "type": "modern-hsl-syntax",
+      "syntax": "hsl( [<hue> | none] [<percentage> | <number> | none] [<percentage> | <number> | none] [ / [<alpha-value> | none] ]? )"
+    },
+    {
+      "type": "legacy-hsla-syntax",
+      "syntax": "hsla( <hue>, <percentage>, <percentage>, <alpha-value>? )"
+    },
+    {
+      "type": "modern-hsla-syntax",
+      "syntax": "hsla( [<hue> | none] [<percentage> | <number> | none] [<percentage> | <number> | none] [ / [<alpha-value> | none] ]? )"
+    },
+    {
+      "type": "hue",
+      "syntax": "<number> | <angle>"
+    },
+    {
+      "type": "alpha-value",
+      "syntax": "<number> | <percentage>"
+    },
+    {
+      "type": "colorspace-params",
+      "syntax": "[ <predefined-rgb-params> | <xyz-params>]"
+    },
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    },
+    {
+      "type": "predefined-rgb-params",
+      "syntax": "<predefined-rgb> [ <number> | <percentage> | none ]{3}"
+    },
+    {
+      "type": "xyz-params",
+      "syntax": "<xyz-space> [ <number> | <percentage> | none ]{3}"
+    },
+    {
+      "type": "predefined-rgb",
+      "syntax": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
+    },
+    {
+      "type": "xyz-space",
+      "syntax": "xyz | xyz-d50 | xyz-d65"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@viewport/viewport-fit",
+  "type": "at-rule-descriptor",
+  "syntax": "auto | contain | cover",
+  "constituents": []
+}

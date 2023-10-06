@@ -45,6 +45,23 @@ function addToValueMap(data) {
 }
 
 /**
+ * As there is same named descriptors for different at rules,
+ * at-rule-descriptor is being represented internally as @rule__descriptor
+ */
+export function getDescriptorName(atRule, descriptor) {
+  if (!atRule.startsWith("@")) {
+    throw new Error(
+      "Invalid descriptor name: provide at rule name along with the " +
+        "descriptor, e.g. '@font-face/font-family'."
+    );
+  }
+  if (descriptor) {
+    return `${atRule}__${descriptor}`;
+  }
+  return atRule.replace("/", "__");
+}
+
+/**
  * Extract construct's data, its values, and descriptors
  */
 function addToConstructMap(map, list) {
@@ -60,8 +77,12 @@ function addToConstructMap(map, list) {
       addToValueMap(value);
     }
     for (const descriptor of item.descriptors || []) {
-      if (!atRuleDescriptors.has(descriptor.name)) {
-        atRuleDescriptors.set(descriptor.name, descriptor);
+      const descriptorName = getDescriptorName(
+        descriptor.for || item.name,
+        descriptor.name
+      );
+      if (!atRuleDescriptors.has(descriptorName)) {
+        atRuleDescriptors.set(descriptorName, descriptor);
       }
     }
   }
@@ -128,7 +149,7 @@ function getTypesForSyntaxes(syntaxes, typesToOmit, constituents) {
       const ast = definitionSyntax.parse(syntax);
       definitionSyntax.walk(ast, processNode);
     } catch (e) {
-      console.log("error parsing syntax: ", syntax, e);
+      console.log("Error parsing syntax: ", syntax, e);
     }
   }
 }
@@ -250,8 +271,10 @@ export function getSyntax(name, type, typesToOmit) {
       syntax = atrules.has(name) ? atrules.get(name).value : undefined;
       break;
     case "at-rule-descriptor":
-      syntax = atRuleDescriptors.has(name)
-        ? atRuleDescriptors.get(name).value
+      /* eslint-disable-next-line no-case-declarations */
+      const descriptorName = getDescriptorName(name);
+      syntax = atRuleDescriptors.has(descriptorName)
+        ? atRuleDescriptors.get(descriptorName).value
         : undefined;
       break;
     default:

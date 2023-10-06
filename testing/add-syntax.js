@@ -5,6 +5,7 @@
 /* eslint-disable-next-line n/no-unsupported-features/node-builtins */
 import fs from "node:fs/promises";
 import * as Utils from "./utils.js";
+import { getDescriptorName } from "../query-syntax.js";
 
 const helpMessage =
   "Usage:\n\t" +
@@ -21,7 +22,7 @@ if (process.argv.length < 3) {
   process.exit(0);
 }
 
-const name = process.argv[2];
+let name = process.argv[2];
 const type = process.argv[3];
 let syntax = Utils.getSyntaxForType(name, type);
 
@@ -31,6 +32,10 @@ if (syntax) {
     type: type,
     ...syntax,
   };
+
+  if (type === "at-rule-descriptor") {
+    name = getDescriptorName(name);
+  }
 
   await fs.writeFile(
     `testing/data/${type}__${name}.json`,

@@ -1,6 +1,0 @@
-{
-  "name": "ascent-override",
-  "type": "at-rule-descriptor",
-  "syntax": "normal | <percentage [0,∞]>",
-  "constituents": []
-}

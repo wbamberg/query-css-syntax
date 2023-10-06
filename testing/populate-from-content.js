@@ -31,11 +31,16 @@ for await (const filePath of Utils.walkSync(contentRoot)) {
       total++;
       const content = await fs.readFile(filePath, "utf-8");
       const slug = slugRx.exec(content)[0];
-      const name = slug.split("/").pop().toLowerCase();
       const type = pageTypeRx
         .exec(content)[0]
         .replace("css-", "")
         .replace("shorthand-", "");
+      let name;
+      if (type === "at-rule-descriptor") {
+        name = slug.split("/").slice(-2).join("/").toLowerCase();
+      } else {
+        name = slug.split("/").pop().toLowerCase();
+      }
       let syntax = Utils.getSyntaxForType(name, type);
 
       if (syntax) {

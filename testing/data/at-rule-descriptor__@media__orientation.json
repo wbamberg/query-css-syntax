@@ -1,0 +1,6 @@
+{
+  "name": "@media/orientation",
+  "type": "at-rule-descriptor",
+  "syntax": "portrait | landscape",
+  "constituents": []
+}

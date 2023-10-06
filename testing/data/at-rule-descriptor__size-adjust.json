@@ -1,6 +1,0 @@
-{
-  "name": "size-adjust",
-  "type": "at-rule-descriptor",
-  "syntax": "<percentage [0,∞]>",
-  "constituents": []
-}

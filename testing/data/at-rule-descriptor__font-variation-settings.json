@@ -1,6 +1,0 @@
-{
-  "name": "font-variation-settings",
-  "type": "at-rule-descriptor",
-  "syntax": "normal | [ <string> <number>]#",
-  "constituents": []
-}

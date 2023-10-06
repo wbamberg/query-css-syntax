@@ -1,6 +1,0 @@
-{
-  "name": "base-palette",
-  "type": "at-rule-descriptor",
-  "syntax": "light | dark | <integer [0,∞]>",
-  "constituents": []
-}

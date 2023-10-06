@@ -35,8 +35,8 @@ console.log(syntax);
 
 This package exports one function, `getPropertySyntax()`. This function takes two arguments:
 
-- `name`: the name of a CSS feature. For example, color, var(), <paint>, and @import.
-- `type`: Type of the CSS feature. For example, 'property', 'function', 'type', 'at-rule', and 'at-rule-descriptor'.
+- `name`: the name of a CSS feature. For example, `color`, `var()`, `<paint>`, `@import`, `@font-face/font-family`.
+- `type`: Type of the CSS feature. For example, `property`, `function`, `type`, `at-rule`, and `at-rule-descriptor`.
 - `typesToOmit`: an array listing types for which you don't want the function to find subtypes. For example, the complete definition of `<color>` is very long, so it's usually better to link to a separate definition of it than to include the definition here.
 
 The function returns an object with two properties:

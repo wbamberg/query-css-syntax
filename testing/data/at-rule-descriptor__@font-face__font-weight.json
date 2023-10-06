@@ -1,0 +1,11 @@
+{
+  "name": "@font-face/font-weight",
+  "type": "at-rule-descriptor",
+  "syntax": "auto | <font-weight-absolute>{1,2}",
+  "constituents": [
+    {
+      "type": "font-weight-absolute",
+      "syntax": "[normal | bold | <number [1,1000]>]"
+    }
+  ]
+}
