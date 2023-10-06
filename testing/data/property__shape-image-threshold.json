@@ -1,0 +1,11 @@
+{
+  "name": "shape-image-threshold",
+  "type": "property",
+  "syntax": "<alpha-value>",
+  "constituents": [
+    {
+      "type": "alpha-value",
+      "syntax": "<number> | <percentage>"
+    }
+  ]
+}

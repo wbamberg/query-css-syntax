@@ -1,0 +1,6 @@
+{
+  "name": "overscroll-behavior",
+  "type": "property",
+  "syntax": "[ contain | none | auto ]{1,2}",
+  "constituents": []
+}

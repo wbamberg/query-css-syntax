@@ -1,0 +1,11 @@
+{
+  "name": "box-shadow",
+  "type": "property",
+  "syntax": "<spread-shadow>#",
+  "constituents": [
+    {
+      "type": "spread-shadow",
+      "syntax": "<'box-shadow-color'>? && [ <'box-shadow-offset'> [ <'box-shadow-blur'> <'box-shadow-spread'>? ]? ] && <'box-shadow-position'>?"
+    }
+  ]
+}

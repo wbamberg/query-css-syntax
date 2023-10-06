@@ -1,0 +1,15 @@
+{
+  "name": "border-top",
+  "type": "property",
+  "syntax": "<line-width> || <line-style> || <color>",
+  "constituents": [
+    {
+      "type": "line-width",
+      "syntax": "<length [0,∞]> | thin | medium | thick"
+    },
+    {
+      "type": "line-style",
+      "syntax": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
+    }
+  ]
+}

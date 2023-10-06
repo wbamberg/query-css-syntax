@@ -1,0 +1,6 @@
+{
+  "name": "size",
+  "type": "at-rule-descriptor",
+  "syntax": "<length>{1,2} | auto | [ <page-size> || [ portrait | landscape ] ]",
+  "constituents": []
+}

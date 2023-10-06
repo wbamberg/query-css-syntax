@@ -1,0 +1,11 @@
+{
+  "name": "top",
+  "type": "property",
+  "syntax": "auto | <length-percentage>",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

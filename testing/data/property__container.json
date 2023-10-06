@@ -1,0 +1,6 @@
+{
+  "name": "container",
+  "type": "property",
+  "syntax": "<'container-name'> [ / <'container-type'> ]?",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "text-transform",
+  "type": "property",
+  "syntax": "none | [capitalize | uppercase | lowercase ] || full-width || full-size-kana | math-auto",
+  "constituents": []
+}

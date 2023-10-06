@@ -1,0 +1,15 @@
+{
+  "name": "font-variant-east-asian",
+  "type": "property",
+  "syntax": "normal | [ <east-asian-variant-values> || <east-asian-width-values> || ruby ]",
+  "constituents": [
+    {
+      "type": "east-asian-variant-values",
+      "syntax": "[ jis78 | jis83 | jis90 | jis04 | simplified | traditional ]"
+    },
+    {
+      "type": "east-asian-width-values",
+      "syntax": "[ full-width | proportional-width ]"
+    }
+  ]
+}

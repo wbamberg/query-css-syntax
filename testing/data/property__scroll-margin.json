@@ -1,0 +1,6 @@
+{
+  "name": "scroll-margin",
+  "type": "property",
+  "syntax": "<length>{1,4}",
+  "constituents": []
+}

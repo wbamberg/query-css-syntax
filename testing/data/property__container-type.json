@@ -1,0 +1,6 @@
+{
+  "name": "container-type",
+  "type": "property",
+  "syntax": "normal | size | inline-size",
+  "constituents": []
+}

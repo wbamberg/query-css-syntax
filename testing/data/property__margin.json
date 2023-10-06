@@ -1,0 +1,6 @@
+{
+  "name": "margin",
+  "type": "property",
+  "syntax": "<'margin-top'>{1,4}",
+  "constituents": []
+}

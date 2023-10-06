@@ -1,0 +1,6 @@
+{
+  "name": "border-block-start-width",
+  "type": "property",
+  "syntax": "<'border-top-width'>",
+  "constituents": []
+}

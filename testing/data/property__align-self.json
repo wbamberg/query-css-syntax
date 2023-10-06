@@ -1,0 +1,19 @@
+{
+  "name": "align-self",
+  "type": "property",
+  "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? <self-position> | anchor-center",
+  "constituents": [
+    {
+      "type": "baseline-position",
+      "syntax": "[ first | last ]? && baseline"
+    },
+    {
+      "type": "overflow-position",
+      "syntax": "unsafe | safe"
+    },
+    {
+      "type": "self-position",
+      "syntax": "center | start | end | self-start | self-end | flex-start | flex-end"
+    }
+  ]
+}

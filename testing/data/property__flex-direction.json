@@ -1,0 +1,6 @@
+{
+  "name": "flex-direction",
+  "type": "property",
+  "syntax": "row | row-reverse | column | column-reverse",
+  "constituents": []
+}

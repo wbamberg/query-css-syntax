@@ -1,0 +1,11 @@
+{
+  "name": "display-listitem",
+  "type": "type",
+  "syntax": "<display-outside>? && [ flow | flow-root ]? && list-item",
+  "constituents": [
+    {
+      "type": "display-outside",
+      "syntax": "block | inline | run-in"
+    }
+  ]
+}

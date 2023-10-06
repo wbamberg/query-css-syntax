@@ -1,0 +1,11 @@
+{
+  "name": "background-origin",
+  "type": "property",
+  "syntax": "<box>#",
+  "constituents": [
+    {
+      "type": "box",
+      "syntax": "border-box | padding-box | content-box"
+    }
+  ]
+}

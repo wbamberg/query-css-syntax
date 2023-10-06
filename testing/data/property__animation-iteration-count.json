@@ -1,0 +1,11 @@
+{
+  "name": "animation-iteration-count",
+  "type": "property",
+  "syntax": "<single-animation-iteration-count>#",
+  "constituents": [
+    {
+      "type": "single-animation-iteration-count",
+      "syntax": "infinite | <number [0,∞]>"
+    }
+  ]
+}

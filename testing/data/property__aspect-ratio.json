@@ -1,0 +1,11 @@
+{
+  "name": "aspect-ratio",
+  "type": "property",
+  "syntax": "auto || <ratio>",
+  "constituents": [
+    {
+      "type": "ratio",
+      "syntax": "<number [0,∞]> [ / <number [0,∞]> ]?"
+    }
+  ]
+}

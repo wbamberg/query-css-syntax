@@ -1,0 +1,6 @@
+{
+  "name": "unicode-bidi",
+  "type": "property",
+  "syntax": "normal | embed | isolate | bidi-override | isolate-override | plaintext",
+  "constituents": []
+}

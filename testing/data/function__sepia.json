@@ -1,0 +1,6 @@
+{
+  "name": "sepia",
+  "type": "function",
+  "syntax": "sepia( [ <number> | <percentage> ]? )",
+  "constituents": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "mask-border-width",
+  "type": "property",
+  "syntax": "[ <length-percentage> | <number> | auto ]{1,4}",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

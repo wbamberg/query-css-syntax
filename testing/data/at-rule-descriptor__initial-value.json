@@ -1,0 +1,6 @@
+{
+  "name": "initial-value",
+  "type": "at-rule-descriptor",
+  "syntax": "<declaration-value>?",
+  "constituents": []
+}

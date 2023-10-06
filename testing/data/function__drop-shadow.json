@@ -1,0 +1,6 @@
+{
+  "name": "drop-shadow",
+  "type": "function",
+  "syntax": "drop-shadow( [ <color>? && <length>{2,3} ] )",
+  "constituents": []
+}

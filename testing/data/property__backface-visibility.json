@@ -1,0 +1,6 @@
+{
+  "name": "backface-visibility",
+  "type": "property",
+  "syntax": "visible | hidden",
+  "constituents": []
+}

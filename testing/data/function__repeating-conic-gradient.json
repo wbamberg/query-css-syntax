@@ -1,0 +1,59 @@
+{
+  "name": "repeating-conic-gradient",
+  "type": "function",
+  "syntax": "repeating-conic-gradient( [ <conic-gradient-syntax> ] )",
+  "constituents": [
+    {
+      "type": "conic-gradient-syntax",
+      "syntax": "[ [ [ from <angle> ]? [ at <position> ]? ] || <color-interpolation-method> ]? , <angular-color-stop-list>"
+    },
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    },
+    {
+      "type": "position",
+      "syntax": "[ [ left | center | right ] || [ top | center | bottom ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ]? | [ [ left | right ] <length-percentage> ] && [ [ top | bottom ] <length-percentage> ] ]"
+    },
+    {
+      "type": "color-interpolation-method",
+      "syntax": "in [ <rectangular-color-space> | <polar-color-space> <hue-interpolation-method>? ]"
+    },
+    {
+      "type": "angular-color-stop-list",
+      "syntax": "<angular-color-stop> , [ <angular-color-hint>? , <angular-color-stop> ]#"
+    },
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    },
+    {
+      "type": "rectangular-color-space",
+      "syntax": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020 | lab | oklab | xyz | xyz-d50 | xyz-d65"
+    },
+    {
+      "type": "polar-color-space",
+      "syntax": "hsl | hwb | lch | oklch"
+    },
+    {
+      "type": "hue-interpolation-method",
+      "syntax": "[ shorter | longer | increasing | decreasing ] hue"
+    },
+    {
+      "type": "angular-color-stop",
+      "syntax": "<color> <color-stop-angle>?"
+    },
+    {
+      "type": "angular-color-hint",
+      "syntax": "<angle-percentage>"
+    },
+    {
+      "type": "color-stop-angle",
+      "syntax": "<angle-percentage>{1,2}"
+    },
+    {
+      "type": "angle-percentage",
+      "syntax": "[ <angle> | <percentage> ]"
+    }
+  ]
+}

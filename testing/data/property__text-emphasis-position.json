@@ -1,0 +1,6 @@
+{
+  "name": "text-emphasis-position",
+  "type": "property",
+  "syntax": "[ over | under ] && [ right | left ]?",
+  "constituents": []
+}

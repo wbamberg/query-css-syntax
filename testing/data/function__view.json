@@ -1,0 +1,11 @@
+{
+  "name": "view",
+  "type": "function",
+  "syntax": "view( [ <axis> || <'view-timeline-inset'> ]? )",
+  "constituents": [
+    {
+      "type": "axis",
+      "syntax": "block | inline | x | y"
+    }
+  ]
+}

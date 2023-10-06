@@ -1,0 +1,11 @@
+{
+  "name": "margin-right",
+  "type": "property",
+  "syntax": "<length-percentage> | auto",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "masonry-auto-flow",
+  "type": "property",
+  "syntax": "[ pack | next ] || [definite-first | ordered ]",
+  "constituents": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "column-width",
+  "type": "property",
+  "syntax": "auto | <length [0,∞]> | min-content | max-content | fit-content(<length-percentage>)",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

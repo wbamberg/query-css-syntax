@@ -1,0 +1,11 @@
+{
+  "name": "animation-play-state",
+  "type": "property",
+  "syntax": "<single-animation-play-state>#",
+  "constituents": [
+    {
+      "type": "single-animation-play-state",
+      "syntax": "running | paused"
+    }
+  ]
+}

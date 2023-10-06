@@ -1,0 +1,11 @@
+{
+  "name": "fallback",
+  "type": "at-rule-descriptor",
+  "syntax": "<counter-style-name>",
+  "constituents": [
+    {
+      "type": "counter-style-name",
+      "syntax": "<decimal> | <decimal-leading-zero> | <arabic-indic> | <armenian> | <upper-armenian> | <lower-armenian> | <bengali> | <cambodian> | <khmer> | <cjk-decimal> | <devanagari> | <georgian> | <gujarati> | <gurmukhi> | <hebrew> | <kannada> | <lao> | <malayalam> | <mongolian> | <myanmar> | <oriya> | <persian> | <lower-roman> | <upper-roman> | <tamil> | <telugu> | <thai> | <tibetan> | <lower-alpha> | <lower-latin> | <upper-alpha> | <upper-latin> | <lower-greek> | <hiragana> | <hiragana-iroha> | <katakana> | <katakana-iroha> | <disc> | <circle> | <square> | <disclosure-open> | <disclosure-closed> | <cjk-earthly-branch> | <cjk-heavenly-stem> | <korean-hangul-formal> | <korean-hanja-informal> | <korean-hanja-formal> | <ethiopic-numeric>"
+    }
+  ]
+}

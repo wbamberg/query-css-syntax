@@ -1,0 +1,15 @@
+{
+  "name": "appearance",
+  "type": "property",
+  "syntax": "none | auto | <compat-auto> | <compat-special>",
+  "constituents": [
+    {
+      "type": "compat-auto",
+      "syntax": "searchfield | textarea | checkbox | radio | menulist | listbox | meter | progress-bar | button"
+    },
+    {
+      "type": "compat-special",
+      "syntax": "textfield | menulist-button"
+    }
+  ]
+}

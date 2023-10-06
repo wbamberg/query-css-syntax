@@ -1,0 +1,6 @@
+{
+  "name": "hyphenate-limit-chars",
+  "type": "property",
+  "syntax": "[ auto | <integer> ]{1,3}",
+  "constituents": []
+}

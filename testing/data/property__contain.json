@@ -1,0 +1,6 @@
+{
+  "name": "contain",
+  "type": "property",
+  "syntax": "none | strict | content | [ size || layout || style || paint ]",
+  "constituents": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "mask-mode",
+  "type": "property",
+  "syntax": "<masking-mode>#",
+  "constituents": [
+    {
+      "type": "masking-mode",
+      "syntax": "alpha | luminance | match-source"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "blur",
+  "type": "function",
+  "syntax": "blur( <length>? )",
+  "constituents": []
+}

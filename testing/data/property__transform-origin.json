@@ -1,0 +1,11 @@
+{
+  "name": "transform-origin",
+  "type": "property",
+  "syntax": "[ left | center | right | top | bottom | <length-percentage> ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ] <length>? | [[ center | left | right ] && [ center | top | bottom ]] <length>?",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

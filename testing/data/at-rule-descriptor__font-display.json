@@ -1,0 +1,6 @@
+{
+  "name": "font-display",
+  "type": "at-rule-descriptor",
+  "syntax": "auto | block | swap | fallback | optional",
+  "constituents": []
+}

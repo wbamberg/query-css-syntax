@@ -1,0 +1,6 @@
+{
+  "name": "break-before",
+  "type": "property",
+  "syntax": "auto | avoid | always | all | avoid-page | page | left | right | recto | verso | avoid-column | column | avoid-region | region",
+  "constituents": []
+}

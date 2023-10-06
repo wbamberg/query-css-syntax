@@ -1,0 +1,6 @@
+{
+  "name": "text-align",
+  "type": "property",
+  "syntax": "start | end | left | right | center | justify | match-parent | justify-all",
+  "constituents": []
+}

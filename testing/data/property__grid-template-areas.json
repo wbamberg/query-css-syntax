@@ -1,0 +1,6 @@
+{
+  "name": "grid-template-areas",
+  "type": "property",
+  "syntax": "none | <string>+",
+  "constituents": []
+}

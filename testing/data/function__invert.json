@@ -1,0 +1,6 @@
+{
+  "name": "invert",
+  "type": "function",
+  "syntax": "invert( [ <number> | <percentage> ]? )",
+  "constituents": []
+}

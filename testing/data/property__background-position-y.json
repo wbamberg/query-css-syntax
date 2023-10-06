@@ -1,0 +1,11 @@
+{
+  "name": "background-position-y",
+  "type": "property",
+  "syntax": "[ center | [ [ top | bottom | y-start | y-end ]? <length-percentage>? ]! ]#",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

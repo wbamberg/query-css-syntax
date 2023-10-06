@@ -1,0 +1,6 @@
+{
+  "name": "scroll-behavior",
+  "type": "property",
+  "syntax": "auto | smooth",
+  "constituents": []
+}

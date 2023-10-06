@@ -1,0 +1,6 @@
+{
+  "name": "all",
+  "type": "property",
+  "syntax": "initial | inherit | unset | revert | revert-layer",
+  "constituents": []
+}

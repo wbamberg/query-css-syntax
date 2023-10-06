@@ -1,0 +1,11 @@
+{
+  "name": "oklab",
+  "type": "function",
+  "syntax": "oklab( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )",
+  "constituents": [
+    {
+      "type": "alpha-value",
+      "syntax": "<number> | <percentage>"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "rotate3d",
+  "type": "function",
+  "syntax": "rotate3d( <number> , <number> , <number> , [ <angle> | <zero> ] )",
+  "constituents": [
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    }
+  ]
+}

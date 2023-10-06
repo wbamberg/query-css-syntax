@@ -1,0 +1,11 @@
+{
+  "name": "overflow-clip-margin",
+  "type": "property",
+  "syntax": "<visual-box> || <length [0,∞]>",
+  "constituents": [
+    {
+      "type": "visual-box",
+      "syntax": "content-box | padding-box | border-box"
+    }
+  ]
+}

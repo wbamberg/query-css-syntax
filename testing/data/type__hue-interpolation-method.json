@@ -1,0 +1,6 @@
+{
+  "name": "hue-interpolation-method",
+  "type": "type",
+  "syntax": "[ shorter | longer | increasing | decreasing ] hue",
+  "constituents": []
+}

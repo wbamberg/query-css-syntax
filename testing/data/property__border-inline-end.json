@@ -1,0 +1,6 @@
+{
+  "name": "border-inline-end",
+  "type": "property",
+  "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
+  "constituents": []
+}

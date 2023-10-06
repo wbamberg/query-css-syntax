@@ -1,0 +1,6 @@
+{
+  "name": "math-depth",
+  "type": "property",
+  "syntax": "auto-add | add(<integer>) | <integer>",
+  "constituents": []
+}

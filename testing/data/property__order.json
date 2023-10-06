@@ -1,0 +1,6 @@
+{
+  "name": "order",
+  "type": "property",
+  "syntax": "[ <'layout-order'> <'reading-order'>? ] | [ [ reading || layout ] && <integer> ]",
+  "constituents": []
+}

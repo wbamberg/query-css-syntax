@@ -1,0 +1,11 @@
+{
+  "name": "font-style",
+  "type": "property",
+  "syntax": "normal | italic | oblique <angle [-90deg,90deg]>?",
+  "constituents": [
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    }
+  ]
+}

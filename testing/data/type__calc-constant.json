@@ -1,0 +1,6 @@
+{
+  "name": "calc-constant",
+  "type": "type",
+  "syntax": "e | pi | infinity | -infinity | NaN",
+  "constituents": []
+}

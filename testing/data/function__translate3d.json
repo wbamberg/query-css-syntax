@@ -1,0 +1,11 @@
+{
+  "name": "translate3d",
+  "type": "function",
+  "syntax": "translate3d( <length-percentage> , <length-percentage> , <length> )",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

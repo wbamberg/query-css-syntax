@@ -1,0 +1,6 @@
+{
+  "name": "color-scheme",
+  "type": "property",
+  "syntax": "normal | [ light | dark | <custom-ident> ]+ && only?",
+  "constituents": []
+}

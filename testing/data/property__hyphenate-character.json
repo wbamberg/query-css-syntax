@@ -1,0 +1,6 @@
+{
+  "name": "hyphenate-character",
+  "type": "property",
+  "syntax": "auto | <string>",
+  "constituents": []
+}

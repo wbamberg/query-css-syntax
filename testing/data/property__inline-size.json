@@ -1,0 +1,6 @@
+{
+  "name": "inline-size",
+  "type": "property",
+  "syntax": "<'width'> | stretch | fit-content | contain",
+  "constituents": []
+}

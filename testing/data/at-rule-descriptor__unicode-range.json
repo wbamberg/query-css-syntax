@@ -1,0 +1,6 @@
+{
+  "name": "unicode-range",
+  "type": "at-rule-descriptor",
+  "syntax": "<urange>#",
+  "constituents": []
+}

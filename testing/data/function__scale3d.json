@@ -1,0 +1,6 @@
+{
+  "name": "scale3d",
+  "type": "function",
+  "syntax": "scale3d( [ <number> | <percentage> ]#{3} )",
+  "constituents": []
+}

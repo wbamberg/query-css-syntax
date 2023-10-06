@@ -1,0 +1,6 @@
+{
+  "name": "hanging-punctuation",
+  "type": "property",
+  "syntax": "none | [ first || [ force-end | allow-end ] || last ]",
+  "constituents": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "mask-clip",
+  "type": "property",
+  "syntax": "[ <geometry-box> | no-clip ]#",
+  "constituents": [
+    {
+      "type": "geometry-box",
+      "syntax": "<shape-box> | fill-box | stroke-box | view-box"
+    },
+    {
+      "type": "shape-box",
+      "syntax": "<box> | margin-box"
+    },
+    {
+      "type": "box",
+      "syntax": "border-box | padding-box | content-box"
+    }
+  ]
+}

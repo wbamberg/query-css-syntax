@@ -1,0 +1,11 @@
+{
+  "name": "width",
+  "type": "property",
+  "syntax": "auto | <length-percentage [0,∞]> | min-content | max-content | fit-content(<length-percentage [0,∞]>) | stretch | fit-content | contain",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

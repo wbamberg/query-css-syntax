@@ -1,0 +1,19 @@
+{
+  "name": "rgb",
+  "type": "function",
+  "syntax": "[ <legacy-rgb-syntax> | <modern-rgb-syntax> ]",
+  "constituents": [
+    {
+      "type": "legacy-rgb-syntax",
+      "syntax": "rgb( <percentage>#{3} , <alpha-value>? ) | rgb( <number>#{3} , <alpha-value>? )"
+    },
+    {
+      "type": "modern-rgb-syntax",
+      "syntax": "rgb( [ <number> | <percentage> | none]{3} [ / [<alpha-value> | none] ]? )"
+    },
+    {
+      "type": "alpha-value",
+      "syntax": "<number> | <percentage>"
+    }
+  ]
+}

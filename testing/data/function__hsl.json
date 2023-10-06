@@ -1,0 +1,27 @@
+{
+  "name": "hsl",
+  "type": "function",
+  "syntax": "[ <legacy-hsl-syntax> | <modern-hsl-syntax> ]",
+  "constituents": [
+    {
+      "type": "legacy-hsl-syntax",
+      "syntax": "hsl( <hue>, <percentage>, <percentage>, <alpha-value>? )"
+    },
+    {
+      "type": "modern-hsl-syntax",
+      "syntax": "hsl( [<hue> | none] [<percentage> | <number> | none] [<percentage> | <number> | none] [ / [<alpha-value> | none] ]? )"
+    },
+    {
+      "type": "hue",
+      "syntax": "<number> | <angle>"
+    },
+    {
+      "type": "alpha-value",
+      "syntax": "<number> | <percentage>"
+    },
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "image-set",
+  "type": "function",
+  "syntax": "image-set( <image-set-option># )",
+  "constituents": [
+    {
+      "type": "image-set-option",
+      "syntax": "[ <image> | <string> ] [ <resolution> || type(<string>) ]"
+    },
+    {
+      "type": "image",
+      "syntax": "<url> | <gradient>"
+    },
+    {
+      "type": "resolution",
+      "syntax": "<dpi> | <dpcm> | <dppx> | <x>"
+    },
+    {
+      "type": "url",
+      "syntax": "<url()> | <src()>"
+    },
+    {
+      "type": "url()",
+      "syntax": "url( <string> <url-modifier>* ) | <url-token>"
+    },
+    {
+      "type": "src()",
+      "syntax": "src( <string> <url-modifier>* )"
+    }
+  ]
+}

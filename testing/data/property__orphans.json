@@ -1,0 +1,6 @@
+{
+  "name": "orphans",
+  "type": "property",
+  "syntax": "<integer [1,∞]>",
+  "constituents": []
+}

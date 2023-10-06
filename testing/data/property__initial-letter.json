@@ -1,0 +1,6 @@
+{
+  "name": "initial-letter",
+  "type": "property",
+  "syntax": "normal | <number [1,∞]> <integer [1,∞]> | <number [1,∞]> && [ drop | raise ]?",
+  "constituents": []
+}

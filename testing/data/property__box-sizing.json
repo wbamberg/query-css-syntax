@@ -1,0 +1,6 @@
+{
+  "name": "box-sizing",
+  "type": "property",
+  "syntax": "content-box | border-box",
+  "constituents": []
+}

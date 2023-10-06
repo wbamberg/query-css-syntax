@@ -1,0 +1,23 @@
+{
+  "name": "border-image-source",
+  "type": "property",
+  "syntax": "none | <image>",
+  "constituents": [
+    {
+      "type": "image",
+      "syntax": "<url> | <gradient>"
+    },
+    {
+      "type": "url",
+      "syntax": "<url()> | <src()>"
+    },
+    {
+      "type": "url()",
+      "syntax": "url( <string> <url-modifier>* ) | <url-token>"
+    },
+    {
+      "type": "src()",
+      "syntax": "src( <string> <url-modifier>* )"
+    }
+  ]
+}

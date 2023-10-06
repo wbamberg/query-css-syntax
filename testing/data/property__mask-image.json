@@ -1,0 +1,31 @@
+{
+  "name": "mask-image",
+  "type": "property",
+  "syntax": "<mask-reference>#",
+  "constituents": [
+    {
+      "type": "mask-reference",
+      "syntax": "none | <image> | <mask-source>"
+    },
+    {
+      "type": "image",
+      "syntax": "<url> | <gradient>"
+    },
+    {
+      "type": "mask-source",
+      "syntax": "<url>"
+    },
+    {
+      "type": "url",
+      "syntax": "<url()> | <src()>"
+    },
+    {
+      "type": "url()",
+      "syntax": "url( <string> <url-modifier>* ) | <url-token>"
+    },
+    {
+      "type": "src()",
+      "syntax": "src( <string> <url-modifier>* )"
+    }
+  ]
+}

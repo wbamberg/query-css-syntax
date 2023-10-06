@@ -1,0 +1,6 @@
+{
+  "name": "white-space",
+  "type": "property",
+  "syntax": "normal | pre | nowrap | pre-wrap | break-spaces | pre-line",
+  "constituents": []
+}

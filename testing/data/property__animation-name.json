@@ -1,0 +1,11 @@
+{
+  "name": "animation-name",
+  "type": "property",
+  "syntax": "[ none | <keyframes-name> ]#",
+  "constituents": [
+    {
+      "type": "keyframes-name",
+      "syntax": "<custom-ident> | <string>"
+    }
+  ]
+}

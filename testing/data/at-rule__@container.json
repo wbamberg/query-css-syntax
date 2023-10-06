@@ -1,0 +1,35 @@
+{
+  "name": "@container",
+  "type": "at-rule",
+  "syntax": "@container <container-condition> { <block-contents> }",
+  "constituents": [
+    {
+      "type": "container-condition",
+      "syntax": "[ <container-name> ]? <container-query>"
+    },
+    {
+      "type": "container-name",
+      "syntax": "<custom-ident>"
+    },
+    {
+      "type": "container-query",
+      "syntax": "not <query-in-parens> | <query-in-parens> [ [ and <query-in-parens> ]* | [ or <query-in-parens> ]* ]"
+    },
+    {
+      "type": "query-in-parens",
+      "syntax": "( <container-query> ) | ( <size-feature> ) | style( <style-query> ) | <general-enclosed>"
+    },
+    {
+      "type": "style-query",
+      "syntax": "not <style-in-parens> | <style-in-parens> [ [ and <style-in-parens> ]* | [ or <style-in-parens> ]* ] | <style-feature>"
+    },
+    {
+      "type": "general-enclosed",
+      "syntax": "[ <function-token> <any-value>? ) ] | [ ( <any-value>? ) ]"
+    },
+    {
+      "type": "style-in-parens",
+      "syntax": "( <style-query> ) | ( <style-feature> ) | <general-enclosed>"
+    }
+  ]
+}

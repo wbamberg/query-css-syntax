@@ -1,0 +1,6 @@
+{
+  "name": "url",
+  "type": "function",
+  "syntax": "url( <string> <url-modifier>* ) | <url-token>",
+  "constituents": []
+}

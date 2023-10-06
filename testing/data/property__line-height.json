@@ -1,0 +1,11 @@
+{
+  "name": "line-height",
+  "type": "property",
+  "syntax": "normal | <number> | <length-percentage>",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

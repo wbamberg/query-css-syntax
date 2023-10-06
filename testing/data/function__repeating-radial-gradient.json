@@ -1,0 +1,43 @@
+{
+  "name": "repeating-radial-gradient",
+  "type": "function",
+  "syntax": "repeating-radial-gradient( [ <radial-gradient-syntax> ] )",
+  "constituents": [
+    {
+      "type": "radial-gradient-syntax",
+      "syntax": "[ <rg-ending-shape> || <rg-size> ]? [ at <position> ]? , <color-stop-list>"
+    },
+    {
+      "type": "rg-ending-shape",
+      "syntax": "circle | ellipse"
+    },
+    {
+      "type": "rg-size",
+      "syntax": "<rg-extent-keyword> | <length [0,∞]> | <length-percentage [0,∞]>{2}"
+    },
+    {
+      "type": "position",
+      "syntax": "[ [ left | center | right ] || [ top | center | bottom ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ]? | [ [ left | right ] <length-percentage> ] && [ [ top | bottom ] <length-percentage> ] ]"
+    },
+    {
+      "type": "color-stop-list",
+      "syntax": "<linear-color-stop> , [ <linear-color-hint>? , <linear-color-stop> ]#"
+    },
+    {
+      "type": "rg-extent-keyword",
+      "syntax": "closest-corner | closest-side | farthest-corner | farthest-side"
+    },
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    },
+    {
+      "type": "linear-color-stop",
+      "syntax": "<color> <length-percentage>?"
+    },
+    {
+      "type": "linear-color-hint",
+      "syntax": "<length-percentage>"
+    }
+  ]
+}

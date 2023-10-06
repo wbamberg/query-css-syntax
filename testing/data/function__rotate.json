@@ -1,0 +1,11 @@
+{
+  "name": "rotate",
+  "type": "function",
+  "syntax": "rotate( [ <angle> | <zero> ] )",
+  "constituents": [
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    }
+  ]
+}

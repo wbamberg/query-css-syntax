@@ -1,0 +1,6 @@
+{
+  "name": "column-span",
+  "type": "property",
+  "syntax": "none | all",
+  "constituents": []
+}

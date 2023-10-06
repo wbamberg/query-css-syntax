@@ -1,0 +1,6 @@
+{
+  "name": "box-decoration-break",
+  "type": "property",
+  "syntax": "slice | clone",
+  "constituents": []
+}

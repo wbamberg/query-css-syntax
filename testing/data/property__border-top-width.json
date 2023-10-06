@@ -1,0 +1,11 @@
+{
+  "name": "border-top-width",
+  "type": "property",
+  "syntax": "<line-width>",
+  "constituents": [
+    {
+      "type": "line-width",
+      "syntax": "<length [0,∞]> | thin | medium | thick"
+    }
+  ]
+}

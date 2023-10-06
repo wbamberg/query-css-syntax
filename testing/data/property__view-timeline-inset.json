@@ -1,0 +1,11 @@
+{
+  "name": "view-timeline-inset",
+  "type": "property",
+  "syntax": "[ [ auto | <length-percentage> ]{1,2} ]#",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

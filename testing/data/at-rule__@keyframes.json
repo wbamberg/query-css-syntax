@@ -1,0 +1,11 @@
+{
+  "name": "@keyframes",
+  "type": "at-rule",
+  "syntax": "@keyframes <keyframes-name> { <qualified-rule-list> }",
+  "constituents": [
+    {
+      "type": "keyframes-name",
+      "syntax": "<custom-ident> | <string>"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "contain-intrinsic-height",
+  "type": "property",
+  "syntax": "auto? [ none | <length> ]",
+  "constituents": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "rect",
+  "type": "function",
+  "syntax": "rect( <top>, <right>, <bottom>, <left> )",
+  "constituents": [
+    {
+      "type": "top",
+      "syntax": "<auto>"
+    },
+    {
+      "type": "right",
+      "syntax": "<auto>"
+    },
+    {
+      "type": "bottom",
+      "syntax": "<auto>"
+    },
+    {
+      "type": "left",
+      "syntax": "<auto>"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "frequency-percentage",
+  "type": "type",
+  "syntax": "[ <frequency> | <percentage> ]",
+  "constituents": [
+    {
+      "type": "frequency",
+      "syntax": "<Hz> | <kHz>"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "skew",
+  "type": "function",
+  "syntax": "skew( [ <angle> | <zero> ] , [ <angle> | <zero> ]? )",
+  "constituents": [
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    }
+  ]
+}

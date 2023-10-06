@@ -1,0 +1,11 @@
+{
+  "name": "row-gap",
+  "type": "property",
+  "syntax": "normal | <length-percentage [0,∞]>",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

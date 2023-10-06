@@ -1,0 +1,6 @@
+{
+  "name": "overflow-block",
+  "type": "property",
+  "syntax": "visible | hidden | clip | scroll | auto",
+  "constituents": []
+}

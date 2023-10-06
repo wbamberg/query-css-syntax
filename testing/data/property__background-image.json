@@ -1,0 +1,27 @@
+{
+  "name": "background-image",
+  "type": "property",
+  "syntax": "<bg-image>#",
+  "constituents": [
+    {
+      "type": "bg-image",
+      "syntax": "<image> | none"
+    },
+    {
+      "type": "image",
+      "syntax": "<url> | <gradient>"
+    },
+    {
+      "type": "url",
+      "syntax": "<url()> | <src()>"
+    },
+    {
+      "type": "url()",
+      "syntax": "url( <string> <url-modifier>* ) | <url-token>"
+    },
+    {
+      "type": "src()",
+      "syntax": "src( <string> <url-modifier>* )"
+    }
+  ]
+}

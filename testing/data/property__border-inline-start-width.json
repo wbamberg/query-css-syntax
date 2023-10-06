@@ -1,0 +1,6 @@
+{
+  "name": "border-inline-start-width",
+  "type": "property",
+  "syntax": "<'border-top-width'>",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "display-outside",
+  "type": "type",
+  "syntax": "block | inline | run-in",
+  "constituents": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "scroll-padding",
+  "type": "property",
+  "syntax": "[ auto | <length-percentage [0,∞]> ]{1,4}",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

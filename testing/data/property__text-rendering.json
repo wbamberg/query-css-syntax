@@ -1,0 +1,6 @@
+{
+  "name": "text-rendering",
+  "type": "property",
+  "syntax": "auto | optimizeSpeed | optimizeLegibility | geometricPrecision",
+  "constituents": []
+}

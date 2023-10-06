@@ -1,0 +1,6 @@
+{
+  "name": "border-inline-start-color",
+  "type": "property",
+  "syntax": "<'border-top-color'>",
+  "constituents": []
+}

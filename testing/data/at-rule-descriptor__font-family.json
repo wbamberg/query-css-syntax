@@ -1,0 +1,6 @@
+{
+  "name": "font-family",
+  "type": "at-rule-descriptor",
+  "syntax": "<family-name>",
+  "constituents": []
+}

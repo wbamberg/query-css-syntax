@@ -1,0 +1,6 @@
+{
+  "name": "ruby-align",
+  "type": "property",
+  "syntax": "start | center | space-between | space-around",
+  "constituents": []
+}

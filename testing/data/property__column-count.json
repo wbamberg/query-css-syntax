@@ -1,0 +1,6 @@
+{
+  "name": "column-count",
+  "type": "property",
+  "syntax": "auto | <integer [1,∞]>",
+  "constituents": []
+}

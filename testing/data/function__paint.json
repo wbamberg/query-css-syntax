@@ -1,0 +1,6 @@
+{
+  "name": "paint",
+  "type": "function",
+  "syntax": "paint( <ident>, <declaration-value>? )",
+  "constituents": []
+}

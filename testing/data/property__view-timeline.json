@@ -1,0 +1,6 @@
+{
+  "name": "view-timeline",
+  "type": "property",
+  "syntax": "[ <'view-timeline-name'> [ <'view-timeline-axis'> || <'view-timeline-inset'> ]? ]#",
+  "constituents": []
+}

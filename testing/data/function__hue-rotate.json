@@ -1,0 +1,11 @@
+{
+  "name": "hue-rotate",
+  "type": "function",
+  "syntax": "hue-rotate( [ <angle> | <zero> ]? )",
+  "constituents": [
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    }
+  ]
+}

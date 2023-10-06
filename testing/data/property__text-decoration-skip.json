@@ -1,0 +1,6 @@
+{
+  "name": "text-decoration-skip",
+  "type": "property",
+  "syntax": "none | auto",
+  "constituents": []
+}

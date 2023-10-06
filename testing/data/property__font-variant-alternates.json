@@ -1,0 +1,11 @@
+{
+  "name": "font-variant-alternates",
+  "type": "property",
+  "syntax": "normal | [ stylistic(<feature-value-name>) || historical-forms || styleset(<feature-value-name>#) || character-variant(<feature-value-name>#) || swash(<feature-value-name>) || ornaments(<feature-value-name>) || annotation(<feature-value-name>) ]",
+  "constituents": [
+    {
+      "type": "feature-value-name",
+      "syntax": "<ident>"
+    }
+  ]
+}

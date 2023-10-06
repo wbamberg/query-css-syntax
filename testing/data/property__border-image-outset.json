@@ -1,0 +1,6 @@
+{
+  "name": "border-image-outset",
+  "type": "property",
+  "syntax": "[ <length [0,∞]> | <number [0,∞]> ]{1,4}",
+  "constituents": []
+}

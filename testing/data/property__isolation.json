@@ -1,0 +1,11 @@
+{
+  "name": "isolation",
+  "type": "property",
+  "syntax": "<isolation-mode>",
+  "constituents": [
+    {
+      "type": "isolation-mode",
+      "syntax": "auto | isolate"
+    }
+  ]
+}

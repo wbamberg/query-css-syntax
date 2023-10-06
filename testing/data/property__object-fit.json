@@ -1,0 +1,6 @@
+{
+  "name": "object-fit",
+  "type": "property",
+  "syntax": "fill | contain | cover | none | scale-down",
+  "constituents": []
+}

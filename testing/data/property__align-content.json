@@ -1,0 +1,23 @@
+{
+  "name": "align-content",
+  "type": "property",
+  "syntax": "normal | <baseline-position> | <content-distribution> | <overflow-position>? <content-position>",
+  "constituents": [
+    {
+      "type": "baseline-position",
+      "syntax": "[ first | last ]? && baseline"
+    },
+    {
+      "type": "content-distribution",
+      "syntax": "space-between | space-around | space-evenly | stretch"
+    },
+    {
+      "type": "overflow-position",
+      "syntax": "unsafe | safe"
+    },
+    {
+      "type": "content-position",
+      "syntax": "center | start | end | flex-start | flex-end"
+    }
+  ]
+}

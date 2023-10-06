@@ -1,0 +1,19 @@
+{
+  "name": "oklch",
+  "type": "function",
+  "syntax": "oklch( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <hue> | none] [ / [<alpha-value> | none] ]? )",
+  "constituents": [
+    {
+      "type": "hue",
+      "syntax": "<number> | <angle>"
+    },
+    {
+      "type": "alpha-value",
+      "syntax": "<number> | <percentage>"
+    },
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "padding-block",
+  "type": "property",
+  "syntax": "<'padding-top'>{1,2}",
+  "constituents": []
+}

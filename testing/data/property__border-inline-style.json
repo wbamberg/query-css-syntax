@@ -1,0 +1,6 @@
+{
+  "name": "border-inline-style",
+  "type": "property",
+  "syntax": "<'border-top-style'>{1,2}",
+  "constituents": []
+}

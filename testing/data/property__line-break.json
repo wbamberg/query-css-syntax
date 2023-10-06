@@ -1,0 +1,6 @@
+{
+  "name": "line-break",
+  "type": "property",
+  "syntax": "auto | loose | normal | strict | anywhere",
+  "constituents": []
+}

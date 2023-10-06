@@ -1,0 +1,6 @@
+{
+  "name": "overflow-y",
+  "type": "property",
+  "syntax": "visible | hidden | clip | scroll | auto",
+  "constituents": []
+}

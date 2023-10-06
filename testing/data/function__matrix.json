@@ -1,0 +1,6 @@
+{
+  "name": "matrix",
+  "type": "function",
+  "syntax": "matrix( <number>#{6} )",
+  "constituents": []
+}

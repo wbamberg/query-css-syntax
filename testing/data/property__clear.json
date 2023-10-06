@@ -1,0 +1,6 @@
+{
+  "name": "clear",
+  "type": "property",
+  "syntax": "inline-start | inline-end | block-start | block-end | left | right | top | bottom | none",
+  "constituents": []
+}

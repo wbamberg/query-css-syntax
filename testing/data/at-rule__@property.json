@@ -1,0 +1,6 @@
+{
+  "name": "@property",
+  "type": "at-rule",
+  "syntax": "@property <custom-property-name> { <declaration-list> }",
+  "constituents": []
+}

@@ -1,0 +1,27 @@
+{
+  "name": "cursor",
+  "type": "property",
+  "syntax": "[ [ <url> | <url-set> ] [<x> <y>]? ]#? [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | grab | grabbing | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out ]",
+  "constituents": [
+    {
+      "type": "url",
+      "syntax": "<url()> | <src()>"
+    },
+    {
+      "type": "x",
+      "syntax": "<length-percentage>"
+    },
+    {
+      "type": "y",
+      "syntax": "<length-percentage>"
+    },
+    {
+      "type": "url()",
+      "syntax": "url( <string> <url-modifier>* ) | <url-token>"
+    },
+    {
+      "type": "src()",
+      "syntax": "src( <string> <url-modifier>* )"
+    }
+  ]
+}

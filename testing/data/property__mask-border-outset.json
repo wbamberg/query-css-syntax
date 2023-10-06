@@ -1,0 +1,6 @@
+{
+  "name": "mask-border-outset",
+  "type": "property",
+  "syntax": "[ <length> | <number> ]{1,4}",
+  "constituents": []
+}

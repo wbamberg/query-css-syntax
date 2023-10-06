@@ -1,0 +1,6 @@
+{
+  "name": "inherits",
+  "type": "at-rule-descriptor",
+  "syntax": "true | false",
+  "constituents": []
+}

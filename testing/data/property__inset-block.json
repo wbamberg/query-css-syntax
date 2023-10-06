@@ -1,0 +1,11 @@
+{
+  "name": "inset-block",
+  "type": "property",
+  "syntax": "<top>{1,2}",
+  "constituents": [
+    {
+      "type": "top",
+      "syntax": "<auto>"
+    }
+  ]
+}

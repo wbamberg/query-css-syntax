@@ -1,0 +1,6 @@
+{
+  "name": "caption-side",
+  "type": "property",
+  "syntax": "top | bottom",
+  "constituents": []
+}

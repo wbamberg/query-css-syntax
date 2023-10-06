@@ -1,0 +1,6 @@
+{
+  "name": "ruby-position",
+  "type": "property",
+  "syntax": "[ alternate || [ over | under ] ] | inter-character",
+  "constituents": []
+}

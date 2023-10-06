@@ -1,0 +1,11 @@
+{
+  "name": "transform",
+  "type": "property",
+  "syntax": "none | <transform-list>",
+  "constituents": [
+    {
+      "type": "transform-list",
+      "syntax": "<transform-function>+"
+    }
+  ]
+}

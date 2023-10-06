@@ -1,0 +1,6 @@
+{
+  "name": "resize",
+  "type": "property",
+  "syntax": "none | both | horizontal | vertical | block | inline",
+  "constituents": []
+}

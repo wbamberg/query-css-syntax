@@ -1,0 +1,6 @@
+{
+  "name": "column-rule",
+  "type": "property",
+  "syntax": "<'column-rule-width'> || <'column-rule-style'> || <'column-rule-color'>",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "gap",
+  "type": "property",
+  "syntax": "<'row-gap'> <'column-gap'>?",
+  "constituents": []
+}

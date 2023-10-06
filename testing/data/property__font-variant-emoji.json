@@ -1,0 +1,6 @@
+{
+  "name": "font-variant-emoji",
+  "type": "property",
+  "syntax": "normal | text | emoji | unicode",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "var",
+  "type": "function",
+  "syntax": "var( <custom-property-name> , <declaration-value>? )",
+  "constituents": []
+}

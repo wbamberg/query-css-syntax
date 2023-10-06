@@ -1,0 +1,6 @@
+{
+  "name": "initial-letter-align",
+  "type": "property",
+  "syntax": "[ border-box? [ alphabetic | ideographic | hanging | leading ]? ]!",
+  "constituents": []
+}

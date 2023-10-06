@@ -1,0 +1,27 @@
+{
+  "name": "image",
+  "type": "function",
+  "syntax": "image( <image-tags>? [ <image-src>? , <color>? ]! )",
+  "constituents": [
+    {
+      "type": "image-tags",
+      "syntax": "[ ltr | rtl ]"
+    },
+    {
+      "type": "image-src",
+      "syntax": "[ <url> | <string> ]"
+    },
+    {
+      "type": "url",
+      "syntax": "<url()> | <src()>"
+    },
+    {
+      "type": "url()",
+      "syntax": "url( <string> <url-modifier>* ) | <url-token>"
+    },
+    {
+      "type": "src()",
+      "syntax": "src( <string> <url-modifier>* )"
+    }
+  ]
+}

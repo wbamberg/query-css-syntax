@@ -1,0 +1,6 @@
+{
+  "name": "font-variation-settings",
+  "type": "property",
+  "syntax": "normal | [ <string> <number>]#",
+  "constituents": []
+}

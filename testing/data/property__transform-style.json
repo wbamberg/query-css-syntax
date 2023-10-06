@@ -1,0 +1,6 @@
+{
+  "name": "transform-style",
+  "type": "property",
+  "syntax": "flat | preserve-3d",
+  "constituents": []
+}

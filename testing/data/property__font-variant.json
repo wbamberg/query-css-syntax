@@ -1,0 +1,47 @@
+{
+  "name": "font-variant",
+  "type": "property",
+  "syntax": "normal | none | [ [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> ] || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || [ stylistic(<feature-value-name>) || historical-forms || styleset(<feature-value-name>#) || character-variant(<feature-value-name>#) || swash(<feature-value-name>) || ornaments(<feature-value-name>) || annotation(<feature-value-name>) ] || [ <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero ] || [ <east-asian-variant-values> || <east-asian-width-values> || ruby ] || [ sub | super ] || [ text | emoji | unicode ] ]",
+  "constituents": [
+    {
+      "type": "common-lig-values",
+      "syntax": "[ common-ligatures | no-common-ligatures ]"
+    },
+    {
+      "type": "discretionary-lig-values",
+      "syntax": "[ discretionary-ligatures | no-discretionary-ligatures ]"
+    },
+    {
+      "type": "historical-lig-values",
+      "syntax": "[ historical-ligatures | no-historical-ligatures ]"
+    },
+    {
+      "type": "contextual-alt-values",
+      "syntax": "[ contextual | no-contextual ]"
+    },
+    {
+      "type": "feature-value-name",
+      "syntax": "<ident>"
+    },
+    {
+      "type": "numeric-figure-values",
+      "syntax": "[ lining-nums | oldstyle-nums ]"
+    },
+    {
+      "type": "numeric-spacing-values",
+      "syntax": "[ proportional-nums | tabular-nums ]"
+    },
+    {
+      "type": "numeric-fraction-values",
+      "syntax": "[ diagonal-fractions | stacked-fractions ]"
+    },
+    {
+      "type": "east-asian-variant-values",
+      "syntax": "[ jis78 | jis83 | jis90 | jis04 | simplified | traditional ]"
+    },
+    {
+      "type": "east-asian-width-values",
+      "syntax": "[ full-width | proportional-width ]"
+    }
+  ]
+}

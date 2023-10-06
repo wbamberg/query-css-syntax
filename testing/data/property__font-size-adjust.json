@@ -1,0 +1,6 @@
+{
+  "name": "font-size-adjust",
+  "type": "property",
+  "syntax": "none | <number [0,∞]>",
+  "constituents": []
+}

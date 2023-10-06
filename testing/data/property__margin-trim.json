@@ -1,0 +1,6 @@
+{
+  "name": "margin-trim",
+  "type": "property",
+  "syntax": "none | block | inline | [ block-start || inline-start || block-end || inline-end ]",
+  "constituents": []
+}

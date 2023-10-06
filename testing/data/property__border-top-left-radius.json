@@ -1,0 +1,11 @@
+{
+  "name": "border-top-left-radius",
+  "type": "property",
+  "syntax": "<length-percentage [0,∞]>{1,2}",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

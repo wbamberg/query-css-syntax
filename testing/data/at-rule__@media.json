@@ -1,0 +1,6 @@
+{
+  "name": "@media",
+  "type": "at-rule",
+  "syntax": "@media <media-query-list> { <rule-list> }",
+  "constituents": []
+}

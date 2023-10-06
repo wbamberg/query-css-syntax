@@ -1,0 +1,6 @@
+{
+  "name": "grid-auto-flow",
+  "type": "property",
+  "syntax": "[ row | column ] || dense",
+  "constituents": []
+}

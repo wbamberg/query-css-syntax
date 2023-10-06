@@ -1,0 +1,6 @@
+{
+  "name": "range",
+  "type": "at-rule-descriptor",
+  "syntax": "[ [ <integer> | infinite ]{2} ]# | auto",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "column-fill",
+  "type": "property",
+  "syntax": "auto | balance | balance-all",
+  "constituents": []
+}

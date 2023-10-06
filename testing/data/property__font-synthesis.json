@@ -1,0 +1,6 @@
+{
+  "name": "font-synthesis",
+  "type": "property",
+  "syntax": "none | [ weight || style || small-caps || position]",
+  "constituents": []
+}

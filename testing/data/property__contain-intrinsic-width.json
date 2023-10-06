@@ -1,0 +1,6 @@
+{
+  "name": "contain-intrinsic-width",
+  "type": "property",
+  "syntax": "auto? [ none | <length> ]",
+  "constituents": []
+}

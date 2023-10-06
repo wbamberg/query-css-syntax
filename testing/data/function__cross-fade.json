@@ -1,0 +1,27 @@
+{
+  "name": "cross-fade",
+  "type": "function",
+  "syntax": "cross-fade( <cf-image># )",
+  "constituents": [
+    {
+      "type": "cf-image",
+      "syntax": "<percentage [0,100]>? && [ <image> | <color> ]"
+    },
+    {
+      "type": "image",
+      "syntax": "<url> | <gradient>"
+    },
+    {
+      "type": "url",
+      "syntax": "<url()> | <src()>"
+    },
+    {
+      "type": "url()",
+      "syntax": "url( <string> <url-modifier>* ) | <url-token>"
+    },
+    {
+      "type": "src()",
+      "syntax": "src( <string> <url-modifier>* )"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@font-face",
+  "type": "at-rule",
+  "syntax": "@font-face { <declaration-list> }",
+  "constituents": []
+}

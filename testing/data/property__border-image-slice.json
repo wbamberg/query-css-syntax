@@ -1,0 +1,6 @@
+{
+  "name": "border-image-slice",
+  "type": "property",
+  "syntax": "[<number [0,∞]> | <percentage [0,∞]>]{1,4} && fill?",
+  "constituents": []
+}

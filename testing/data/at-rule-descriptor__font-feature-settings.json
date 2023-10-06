@@ -1,0 +1,11 @@
+{
+  "name": "font-feature-settings",
+  "type": "at-rule-descriptor",
+  "syntax": "normal | <feature-tag-value>#",
+  "constituents": [
+    {
+      "type": "feature-tag-value",
+      "syntax": "<string> [ <integer> | on | off ]?"
+    }
+  ]
+}

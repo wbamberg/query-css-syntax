@@ -1,0 +1,6 @@
+{
+  "name": "line-height-step",
+  "type": "property",
+  "syntax": "<length [0,∞]>",
+  "constituents": []
+}

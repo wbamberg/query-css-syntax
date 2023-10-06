@@ -1,0 +1,11 @@
+{
+  "name": "lab",
+  "type": "function",
+  "syntax": "lab( [<percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )",
+  "constituents": [
+    {
+      "type": "alpha-value",
+      "syntax": "<number> | <percentage>"
+    }
+  ]
+}

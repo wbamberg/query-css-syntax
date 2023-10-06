@@ -1,0 +1,6 @@
+{
+  "name": "scroll-snap-stop",
+  "type": "property",
+  "syntax": "normal | always",
+  "constituents": []
+}

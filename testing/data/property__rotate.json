@@ -1,0 +1,11 @@
+{
+  "name": "rotate",
+  "type": "property",
+  "syntax": "none | <angle> | [ x | y | z | <number>{3} ] && <angle>",
+  "constituents": [
+    {
+      "type": "angle",
+      "syntax": "<deg> | <grad> | <rad> | <turn>"
+    }
+  ]
+}

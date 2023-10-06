@@ -1,0 +1,11 @@
+{
+  "name": "border-image-width",
+  "type": "property",
+  "syntax": "[ <length-percentage [0,∞]> | <number [0,∞]> | auto ]{1,4}",
+  "constituents": [
+    {
+      "type": "length-percentage",
+      "syntax": "[ <length> | <percentage> ]"
+    }
+  ]
+}

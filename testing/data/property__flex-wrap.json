@@ -1,0 +1,6 @@
+{
+  "name": "flex-wrap",
+  "type": "property",
+  "syntax": "nowrap | wrap | wrap-reverse",
+  "constituents": []
+}

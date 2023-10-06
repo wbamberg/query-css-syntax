@@ -1,0 +1,6 @@
+{
+  "name": "font-palette",
+  "type": "property",
+  "syntax": "normal | light | dark | <palette-identifier>",
+  "constituents": []
+}

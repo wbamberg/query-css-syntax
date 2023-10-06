@@ -1,0 +1,6 @@
+{
+  "name": "text-emphasis-style",
+  "type": "property",
+  "syntax": "none | [ [ filled | open ] || [ dot | circle | double-circle | triangle | sesame ] ] | <string>",
+  "constituents": []
+}

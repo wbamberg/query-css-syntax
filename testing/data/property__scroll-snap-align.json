@@ -1,0 +1,6 @@
+{
+  "name": "scroll-snap-align",
+  "type": "property",
+  "syntax": "[ none | start | end | center ]{1,2}",
+  "constituents": []
+}

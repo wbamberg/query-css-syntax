@@ -1,0 +1,6 @@
+{
+  "name": "text-emphasis",
+  "type": "property",
+  "syntax": "<'text-emphasis-style'> || <'text-emphasis-color'>",
+  "constituents": []
+}

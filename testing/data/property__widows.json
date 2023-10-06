@@ -1,0 +1,6 @@
+{
+  "name": "widows",
+  "type": "property",
+  "syntax": "<integer [1,∞]>",
+  "constituents": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "length-percentage",
+  "type": "type",
+  "syntax": "[ <length> | <percentage> ]",
+  "constituents": []
+}

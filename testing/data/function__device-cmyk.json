@@ -1,0 +1,15 @@
+{
+  "name": "device-cmyk",
+  "type": "function",
+  "syntax": "device-cmyk( <cmyk-component>{4} [ / <alpha-value> ]? )",
+  "constituents": [
+    {
+      "type": "cmyk-component",
+      "syntax": "<number> | <percentage>"
+    },
+    {
+      "type": "alpha-value",
+      "syntax": "<number> | <percentage>"
+    }
+  ]
+}

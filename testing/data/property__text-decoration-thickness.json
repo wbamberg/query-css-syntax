@@ -1,0 +1,6 @@
+{
+  "name": "text-decoration-thickness",
+  "type": "property",
+  "syntax": "auto | from-font | <length> | <percentage>",
+  "constituents": []
+}

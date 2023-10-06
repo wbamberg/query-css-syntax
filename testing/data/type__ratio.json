@@ -1,0 +1,6 @@
+{
+  "name": "ratio",
+  "type": "type",
+  "syntax": "<number [0,∞]> [ / <number [0,∞]> ]?",
+  "constituents": []
+}

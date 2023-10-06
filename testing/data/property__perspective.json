@@ -1,0 +1,6 @@
+{
+  "name": "perspective",
+  "type": "property",
+  "syntax": "none | <length [0,∞]>",
+  "constituents": []
+}

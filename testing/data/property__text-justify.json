@@ -1,0 +1,6 @@
+{
+  "name": "text-justify",
+  "type": "property",
+  "syntax": "auto | none | inter-word | inter-character",
+  "constituents": []
+}

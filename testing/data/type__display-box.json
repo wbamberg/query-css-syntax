@@ -1,0 +1,6 @@
+{
+  "name": "display-box",
+  "type": "type",
+  "syntax": "contents | none",
+  "constituents": []
+}

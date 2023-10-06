@@ -1,0 +1,11 @@
+{
+  "name": "inset",
+  "type": "property",
+  "syntax": "<top>{1,4}",
+  "constituents": [
+    {
+      "type": "top",
+      "syntax": "<auto>"
+    }
+  ]
+}

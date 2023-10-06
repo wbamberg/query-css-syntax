@@ -1,0 +1,15 @@
+{
+  "name": "float",
+  "type": "property",
+  "syntax": "block-start | block-end | inline-start | inline-end | snap-block | <snap-block()> | snap-inline | <snap-inline()> | left | right | top | bottom | none",
+  "constituents": [
+    {
+      "type": "snap-block()",
+      "syntax": "snap-block( <length> , [ start | end | near ]? )"
+    },
+    {
+      "type": "snap-inline()",
+      "syntax": "snap-inline( <length> , [ left | right | near ]? )"
+    }
+  ]
+}

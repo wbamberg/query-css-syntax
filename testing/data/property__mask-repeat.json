@@ -1,0 +1,11 @@
+{
+  "name": "mask-repeat",
+  "type": "property",
+  "syntax": "<repeat-style>#",
+  "constituents": [
+    {
+      "type": "repeat-style",
+      "syntax": "repeat-x | repeat-y | [repeat | space | round | no-repeat]{1,2}"
+    }
+  ]
+}

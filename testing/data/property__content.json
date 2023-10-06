@@ -1,0 +1,87 @@
+{
+  "name": "content",
+  "type": "property",
+  "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ [ <string> | <counter> ]+ ]? | element()",
+  "constituents": [
+    {
+      "type": "content-replacement",
+      "syntax": "<image>"
+    },
+    {
+      "type": "content-list",
+      "syntax": "[ <string> | contents | <image> | <counter> | <quote> | <target> | <leader()> ]+"
+    },
+    {
+      "type": "counter",
+      "syntax": "<counter()> | <counters()>"
+    },
+    {
+      "type": "image",
+      "syntax": "<url> | <gradient>"
+    },
+    {
+      "type": "quote",
+      "syntax": "open-quote | close-quote | no-open-quote | no-close-quote"
+    },
+    {
+      "type": "target",
+      "syntax": "<target-counter()> | <target-counters()> | <target-text()>"
+    },
+    {
+      "type": "leader()",
+      "syntax": "leader( <leader-type> )"
+    },
+    {
+      "type": "counter()",
+      "syntax": "counter( <counter-name>, <counter-style>? )"
+    },
+    {
+      "type": "counters()",
+      "syntax": "counters( <counter-name>, <string>, <counter-style>? )"
+    },
+    {
+      "type": "url",
+      "syntax": "<url()> | <src()>"
+    },
+    {
+      "type": "target-counter()",
+      "syntax": "target-counter( [ <string> | <url> ] , <custom-ident> , <counter-style>? )"
+    },
+    {
+      "type": "target-counters()",
+      "syntax": "target-counters( [ <string> | <url> ] , <custom-ident> , <string> , <counter-style>? )"
+    },
+    {
+      "type": "target-text()",
+      "syntax": "target-text( [ <string> | <url> ] , [ content | before | after | first-letter ]? )"
+    },
+    {
+      "type": "leader-type",
+      "syntax": "dotted | solid | space | <string>"
+    },
+    {
+      "type": "counter-style",
+      "syntax": "<counter-style-name> | <symbols()>"
+    },
+    {
+      "type": "url()",
+      "syntax": "url( <string> <url-modifier>* ) | <url-token>"
+    },
+    {
+      "type": "src()",
+      "syntax": "src( <string> <url-modifier>* )"
+    },
+    {
+      "type": "counter-style-name",
+      "syntax": "<decimal> | <decimal-leading-zero> | <arabic-indic> | <armenian> | <upper-armenian> | <lower-armenian> | <bengali> | <cambodian> | <khmer> | <cjk-decimal> | <devanagari> | <georgian> | <gujarati> | <gurmukhi> | <hebrew> | <kannada> | <lao> | <malayalam> | <mongolian> | <myanmar> | <oriya> | <persian> | <lower-roman> | <upper-roman> | <tamil> | <telugu> | <thai> | <tibetan> | <lower-alpha> | <lower-latin> | <upper-alpha> | <upper-latin> | <lower-greek> | <hiragana> | <hiragana-iroha> | <katakana> | <katakana-iroha> | <disc> | <circle> | <square> | <disclosure-open> | <disclosure-closed> | <cjk-earthly-branch> | <cjk-heavenly-stem> | <korean-hangul-formal> | <korean-hanja-informal> | <korean-hanja-formal> | <ethiopic-numeric>"
+    },
+    {
+      "type": "symbols()",
+      "syntax": "symbols( <symbols-type>? [ <string> | <image> ]+ )"
+    },
+    {
+      "type": "symbols-type",
+      "syntax": "cyclic | numeric | alphabetic | symbolic | fixed"
+    }
+  ]
+}
